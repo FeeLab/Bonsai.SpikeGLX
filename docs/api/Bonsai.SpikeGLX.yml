@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Bonsai.SpikeGLX
+  commentId: N:Bonsai.SpikeGLX
+  id: Bonsai.SpikeGLX
+  children:
+  - Bonsai.SpikeGLX.DigitalOutput
+  - Bonsai.SpikeGLX.ImecChannelSelector
+  - Bonsai.SpikeGLX.NeuropixelsMuxGroups
+  - Bonsai.SpikeGLX.SpikeFetch
+  - Bonsai.SpikeGLX.SpikeGLX
+  - Bonsai.SpikeGLX.SpikeGLXDataStream
+  - Bonsai.SpikeGLX.SpikeGLXException
+  - Bonsai.SpikeGLX.SpikeStream
+  - Bonsai.SpikeGLX.TriggerRecording
+  langs:
+  - csharp
+  - vb
+  name: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  type: Namespace
+  assemblies:
+  - Bonsai.SpikeGLX
+references:
+- uid: Bonsai.SpikeGLX.DigitalOutput
+  commentId: T:Bonsai.SpikeGLX.DigitalOutput
+  href: Bonsai.SpikeGLX.DigitalOutput.html
+  name: DigitalOutput
+  nameWithType: DigitalOutput
+  fullName: Bonsai.SpikeGLX.DigitalOutput
+- uid: Bonsai.SpikeGLX.ImecChannelSelector
+  commentId: T:Bonsai.SpikeGLX.ImecChannelSelector
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html
+  name: ImecChannelSelector
+  nameWithType: ImecChannelSelector
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector
+- uid: Bonsai.SpikeGLX.NeuropixelsMuxGroups
+  commentId: T:Bonsai.SpikeGLX.NeuropixelsMuxGroups
+  href: Bonsai.SpikeGLX.NeuropixelsMuxGroups.html
+  name: NeuropixelsMuxGroups
+  nameWithType: NeuropixelsMuxGroups
+  fullName: Bonsai.SpikeGLX.NeuropixelsMuxGroups
+- uid: Bonsai.SpikeGLX.SpikeFetch
+  commentId: T:Bonsai.SpikeGLX.SpikeFetch
+  href: Bonsai.SpikeGLX.SpikeFetch.html
+  name: SpikeFetch
+  nameWithType: SpikeFetch
+  fullName: Bonsai.SpikeGLX.SpikeFetch
+- uid: Bonsai.SpikeGLX.SpikeGLX
+  commentId: T:Bonsai.SpikeGLX.SpikeGLX
+  parent: Bonsai.SpikeGLX
+  href: Bonsai.SpikeGLX.SpikeGLX.html
+  name: SpikeGLX
+  nameWithType: SpikeGLX
+  fullName: Bonsai.SpikeGLX.SpikeGLX
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream
+  commentId: T:Bonsai.SpikeGLX.SpikeGLXDataStream
+  href: Bonsai.SpikeGLX.SpikeGLXDataStream.html
+  name: SpikeGLXDataStream
+  nameWithType: SpikeGLXDataStream
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream
+- uid: Bonsai.SpikeGLX.SpikeGLXException
+  commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+  href: Bonsai.SpikeGLX.SpikeGLXException.html
+  name: SpikeGLXException
+  nameWithType: SpikeGLXException
+  fullName: Bonsai.SpikeGLX.SpikeGLXException
+- uid: Bonsai.SpikeGLX.SpikeStream
+  commentId: T:Bonsai.SpikeGLX.SpikeStream
+  href: Bonsai.SpikeGLX.SpikeStream.html
+  name: SpikeStream
+  nameWithType: SpikeStream
+  fullName: Bonsai.SpikeGLX.SpikeStream
+- uid: Bonsai.SpikeGLX.TriggerRecording
+  commentId: T:Bonsai.SpikeGLX.TriggerRecording
+  href: Bonsai.SpikeGLX.TriggerRecording.html
+  name: TriggerRecording
+  nameWithType: TriggerRecording
+  fullName: Bonsai.SpikeGLX.TriggerRecording
+- uid: Bonsai.SpikeGLX
+  commentId: N:Bonsai.SpikeGLX
+  href: Bonsai.html
+  name: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  spec.csharp:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+  spec.vb:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html

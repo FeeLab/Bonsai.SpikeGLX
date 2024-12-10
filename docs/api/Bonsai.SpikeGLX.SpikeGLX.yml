@@ -1,0 +1,1359 @@
+### YamlMime:ManagedReference
+items:
+- uid: Bonsai.SpikeGLX.SpikeGLX
+  commentId: T:Bonsai.SpikeGLX.SpikeGLX
+  id: SpikeGLX
+  parent: Bonsai.SpikeGLX
+  children:
+  - Bonsai.SpikeGLX.SpikeGLX.#ctor(System.String,System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.Dispose
+  - Bonsai.SpikeGLX.SpikeGLX.Dispose(System.Boolean)
+  - Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.Fetch(System.Int16[]@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.FetchLatest(System.Int16[]@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.Finalize
+  - Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.GetParams
+  - Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  - Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(System.Int32,System.Int32,System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(System.Int32,System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(System.Int32,System.Int32)
+  - Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(System.Int32,System.String)
+  - Bonsai.SpikeGLX.SpikeGLX.TriggerGT(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SpikeGLX
+  nameWithType: SpikeGLX
+  fullName: Bonsai.SpikeGLX.SpikeGLX
+  type: Class
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: SpikeGLX
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 10
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Represents an instance of SpikeGLX communicating with Bonsai.
+  example: []
+  syntax:
+    content: 'public class SpikeGLX : IDisposable'
+    content.vb: Public Class SpikeGLX Implements IDisposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Bonsai.SpikeGLX.SpikeGLXDataStream
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Bonsai.SpikeGLX.SpikeGLX.#ctor(System.String,System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: SpikeGLX(string, int)
+  nameWithType: SpikeGLX.SpikeGLX(string, int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SpikeGLX(string, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: .ctor
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 21
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Initialise an instance of SpikeGLX communicating with Bonsai.
+  example: []
+  syntax:
+    content: public SpikeGLX(string host, int port)
+    parameters:
+    - id: host
+      type: System.String
+      description: IP address of the SpikeGLX command server.
+    - id: port
+      type: System.Int32
+      description: Port of the SpikeGLX command server.
+    content.vb: Public Sub New(host As String, port As Integer)
+  overload: Bonsai.SpikeGLX.SpikeGLX.#ctor*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.New(String, Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.New(String, Integer)
+  name.vb: New(String, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(System.Int32)
+  id: GetGeomMap(System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetGeomMap(int)
+  nameWithType: SpikeGLX.GetGeomMap(int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetGeomMap
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 50
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets SpikeGLX probe geometry map for the given probe number.
+  example: []
+  syntax:
+    content: public string[] GetGeomMap(int ip)
+    parameters:
+    - id: ip
+      type: System.Int32
+      description: Probe number.
+    return:
+      type: System.String[]
+      description: String array of geometry parameters.
+    content.vb: Public Function GetGeomMap(ip As Integer) As String()
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.GetGeomMap(Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(Integer)
+  name.vb: GetGeomMap(Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParams
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetParams
+  id: GetParams
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetParams()
+  nameWithType: SpikeGLX.GetParams()
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParams()
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetParams
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 65
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets SpikeGLX run parameters.
+  example: []
+  syntax:
+    content: public string[] GetParams()
+    return:
+      type: System.String[]
+      description: Array of "key:value" parameters.
+    content.vb: Public Function GetParams() As String()
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetParams*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  id: GetParamsImecCommon
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetParamsImecCommon()
+  nameWithType: SpikeGLX.GetParamsImecCommon()
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon()
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetParamsImecCommon
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 80
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets SpikeGLX parameters common to all IMEC probes.
+  example: []
+  syntax:
+    content: public string[] GetParamsImecCommon()
+    return:
+      type: System.String[]
+      description: Array of "key:value" parameters.
+    content.vb: Public Function GetParamsImecCommon() As String()
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(System.Int32)
+  id: GetParamsImecProbe(System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetParamsImecProbe(int)
+  nameWithType: SpikeGLX.GetParamsImecProbe(int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetParamsImecProbe
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 96
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets SpikeGLX parameters for a given IMEC probe.
+  example: []
+  syntax:
+    content: public string[] GetParamsImecProbe(int ip)
+    parameters:
+    - id: ip
+      type: System.Int32
+      description: Probe number.
+    return:
+      type: System.String[]
+      description: Array of "key:value" parameters.
+    content.vb: Public Function GetParamsImecProbe(ip As Integer) As String()
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.GetParamsImecProbe(Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(Integer)
+  name.vb: GetParamsImecProbe(Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(System.Int32,System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(System.Int32,System.Int32)
+  id: GetStreamSampleRate(System.Int32,System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetStreamSampleRate(int, int)
+  nameWithType: SpikeGLX.GetStreamSampleRate(int, int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(int, int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetStreamSampleRate
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 113
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Get the sample rate of a given data stream.
+  example: []
+  syntax:
+    content: protected double GetStreamSampleRate(int js, int ip)
+    parameters:
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe)'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe)
+    return:
+      type: System.Double
+      description: The stream sample rate
+    content.vb: Protected Function GetStreamSampleRate(js As Integer, ip As Integer) As Double
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.GetStreamSampleRate(Integer, Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(Integer, Integer)
+  name.vb: GetStreamSampleRate(Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(System.Int32,System.Int32,System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(System.Int32,System.Int32,System.Int32)
+  id: GetStreamI16ToVolts(System.Int32,System.Int32,System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetStreamI16ToVolts(int, int, int)
+  nameWithType: SpikeGLX.GetStreamI16ToVolts(int, int, int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetStreamI16ToVolts
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 129
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Get the constant multiple for converting a channels output between a unitless
+
+    integer and a voltage, in volts.
+  example: []
+  syntax:
+    content: protected double GetStreamI16ToVolts(int js, int ip, int chan)
+    parameters:
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe)'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe)
+    - id: chan
+      type: System.Int32
+      description: Channel
+    return:
+      type: System.Double
+      description: The multiple to convert the channel output to a voltage, in volts.
+    content.vb: Protected Function GetStreamI16ToVolts(js As Integer, ip As Integer, chan As Integer) As Double
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.GetStreamI16ToVolts(Integer, Integer, Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(Integer, Integer, Integer)
+  name.vb: GetStreamI16ToVolts(Integer, Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(System.Int32,System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(System.Int32,System.Int32)
+  id: GetStreamSampleCount(System.Int32,System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: GetStreamSampleCount(int, int)
+  nameWithType: SpikeGLX.GetStreamSampleCount(int, int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(int, int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: GetStreamSampleCount
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 143
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Get the number of samples on a given channel
+  example: []
+  syntax:
+    content: protected ulong GetStreamSampleCount(int js, int ip)
+    parameters:
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe)'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe)
+    return:
+      type: System.UInt64
+      description: The number of samples on the channel.
+    content.vb: Protected Function GetStreamSampleCount(js As Integer, ip As Integer) As ULong
+  overload: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.GetStreamSampleCount(Integer, Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(Integer, Integer)
+  name.vb: GetStreamSampleCount(Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Fetch(System.Int16[]@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Fetch(System.Int16[]@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  id: Fetch(System.Int16[]@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: Fetch(out short[], int, int, ulong, int, int[], int)
+  nameWithType: SpikeGLX.Fetch(out short[], int, int, ulong, int, int[], int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Fetch(out short[], int, int, ulong, int, int[], int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Fetch
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 162
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Fetch data from SpikeGLX.
+  example: []
+  syntax:
+    content: protected ulong Fetch(out short[] data, int js, int ip, ulong startSample, int maxSamples, int[] channels, int downsample)
+    parameters:
+    - id: data
+      type: System.Int16[]
+      description: Array of fetched data.
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe).'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe).
+    - id: startSample
+      type: System.UInt64
+      description: Sample count to fetch from.
+    - id: maxSamples
+      type: System.Int32
+      description: Maximum number of samples to fetch.
+    - id: channels
+      type: System.Int32[]
+      description: Channels to fetch data from.
+    - id: downsample
+      type: System.Int32
+      description: Factor by which to downsample fetched data.
+    return:
+      type: System.UInt64
+      description: Sample count at the beginning of the fetched data.
+    content.vb: Protected Function Fetch(data As Short(), js As Integer, ip As Integer, startSample As ULong, maxSamples As Integer, channels As Integer(), downsample As Integer) As ULong
+  overload: Bonsai.SpikeGLX.SpikeGLX.Fetch*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.Fetch(Short(), Integer, Integer, ULong, Integer, Integer(), Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.Fetch(Short(), Integer, Integer, ULong, Integer, Integer(), Integer)
+  name.vb: Fetch(Short(), Integer, Integer, ULong, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  id: Fetch(OpenCV.Net.Mat@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: Fetch(out Mat, int, int, ulong, int, int[], int)
+  nameWithType: SpikeGLX.Fetch(out Mat, int, int, ulong, int, int[], int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Fetch(out OpenCV.Net.Mat, int, int, ulong, int, int[], int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Fetch
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 185
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Fetch data from SpikeGLX.
+  example: []
+  syntax:
+    content: protected ulong Fetch(out Mat data, int js, int ip, ulong startSample, int maxSamples, int[] channels, int downsample)
+    parameters:
+    - id: data
+      type: OpenCV.Net.Mat
+      description: Matrix of fetched data. Each row is a channel, each column is a sample.
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe).'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe).
+    - id: startSample
+      type: System.UInt64
+      description: Sample count to fetch from.
+    - id: maxSamples
+      type: System.Int32
+      description: Maximum number of samples to fetch.
+    - id: channels
+      type: System.Int32[]
+      description: Channels to fetch data from.
+    - id: downsample
+      type: System.Int32
+      description: Factor by which to downsample fetched data.
+    return:
+      type: System.UInt64
+      description: Sample count at the beginning of the fetched data.
+    content.vb: Protected Function Fetch(data As Mat, js As Integer, ip As Integer, startSample As ULong, maxSamples As Integer, channels As Integer(), downsample As Integer) As ULong
+  overload: Bonsai.SpikeGLX.SpikeGLX.Fetch*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.Fetch(Mat, Integer, Integer, ULong, Integer, Integer(), Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat, Integer, Integer, ULong, Integer, Integer(), Integer)
+  name.vb: Fetch(Mat, Integer, Integer, ULong, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(System.Int16[]@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.FetchLatest(System.Int16[]@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  id: FetchLatest(System.Int16[]@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: FetchLatest(out short[], int, int, int, int[], int)
+  nameWithType: SpikeGLX.FetchLatest(out short[], int, int, int, int[], int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(out short[], int, int, int, int[], int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: FetchLatest
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 213
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Fetch the latest data from SpikeGLX.
+  example: []
+  syntax:
+    content: protected ulong FetchLatest(out short[] data, int js, int ip, int maxSamples, int[] channels, int downsample)
+    parameters:
+    - id: data
+      type: System.Int16[]
+      description: Array of fetched data.
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe).'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe).
+    - id: maxSamples
+      type: System.Int32
+      description: Maximum number of samples to fetch.
+    - id: channels
+      type: System.Int32[]
+      description: Channels to fetch data from.
+    - id: downsample
+      type: System.Int32
+      description: Factor by which to downsample fetched data.
+    return:
+      type: System.UInt64
+      description: Sample count at the beginning of the fetched data.
+    content.vb: Protected Function FetchLatest(data As Short(), js As Integer, ip As Integer, maxSamples As Integer, channels As Integer(), downsample As Integer) As ULong
+  overload: Bonsai.SpikeGLX.SpikeGLX.FetchLatest*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.FetchLatest(Short(), Integer, Integer, Integer, Integer(), Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(Short(), Integer, Integer, Integer, Integer(), Integer)
+  name.vb: FetchLatest(Short(), Integer, Integer, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  id: FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: FetchLatest(out Mat, int, int, int, int[], int)
+  nameWithType: SpikeGLX.FetchLatest(out Mat, int, int, int, int[], int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(out OpenCV.Net.Mat, int, int, int, int[], int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: FetchLatest
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 233
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Fetch the latest data from SpikeGLX.
+  example: []
+  syntax:
+    content: protected ulong FetchLatest(out Mat data, int js, int ip, int maxSamples, int[] channels, int downsample)
+    parameters:
+    - id: data
+      type: OpenCV.Net.Mat
+      description: Matrix of fetched data. Each row is a channel, each column is a sample.
+    - id: js
+      type: System.Int32
+      description: 'Stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe).'
+    - id: ip
+      type: System.Int32
+      description: Substream (0 for NIDAQ, probe number for IMEC Probe).
+    - id: maxSamples
+      type: System.Int32
+      description: Maximum number of samples to fetch.
+    - id: channels
+      type: System.Int32[]
+      description: Channels to fetch data from.
+    - id: downsample
+      type: System.Int32
+      description: Factor by which to downsample fetched data.
+    return:
+      type: System.UInt64
+      description: Sample count at the beginning of the fetched data.
+    content.vb: Protected Function FetchLatest(data As Mat, js As Integer, ip As Integer, maxSamples As Integer, channels As Integer(), downsample As Integer) As ULong
+  overload: Bonsai.SpikeGLX.SpikeGLX.FetchLatest*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.FetchLatest(Mat, Integer, Integer, Integer, Integer(), Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat, Integer, Integer, Integer, Integer(), Integer)
+  name.vb: FetchLatest(Mat, Integer, Integer, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(System.Int32,System.String)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(System.Int32,System.String)
+  id: SetDigitalOut(System.Int32,System.String)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: SetDigitalOut(int, string)
+  nameWithType: SpikeGLX.SetDigitalOut(int, string)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(int, string)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: SetDigitalOut
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 257
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Set a digital output through SpikeGLX.
+  example: []
+  syntax:
+    content: public void SetDigitalOut(int output, string channels)
+    parameters:
+    - id: output
+      type: System.Int32
+      description: The digital output value to set
+    - id: channels
+      type: System.String
+      description: >-
+        The output channels to set the value of. Channel strings have form:
+
+        "Dev6/port0/line2,Dev6/port0/line5".
+    content.vb: Public Sub SetDigitalOut(output As Integer, channels As String)
+  overload: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.SetDigitalOut(Integer, String)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(Integer, String)
+  name.vb: SetDigitalOut(Integer, String)
+- uid: Bonsai.SpikeGLX.SpikeGLX.TriggerGT(System.Int32,System.Int32)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.TriggerGT(System.Int32,System.Int32)
+  id: TriggerGT(System.Int32,System.Int32)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: TriggerGT(int, int)
+  nameWithType: SpikeGLX.TriggerGT(int, int)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.TriggerGT(int, int)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: TriggerGT
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 279
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Control SpikeGLX recording by setting the gate and trigger values.
+  example: []
+  syntax:
+    content: public void TriggerGT(int gate, int trigger)
+    parameters:
+    - id: gate
+      type: System.Int32
+      description: >-
+        The gate set value:
+            -1: no change
+             0: set low
+             1: set high
+    - id: trigger
+      type: System.Int32
+      description: >-
+        The trigger value:
+            -1: no change
+             0: set low
+             1: set high
+    content.vb: Public Sub TriggerGT(gate As Integer, trigger As Integer)
+  overload: Bonsai.SpikeGLX.SpikeGLX.TriggerGT*
+  exceptions:
+  - type: Bonsai.SpikeGLX.SpikeGLXException
+    commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+    description: ''
+  nameWithType.vb: SpikeGLX.TriggerGT(Integer, Integer)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.TriggerGT(Integer, Integer)
+  name.vb: TriggerGT(Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Dispose
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Dispose
+  id: Dispose
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SpikeGLX.Dispose()
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Dispose
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 286
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Bonsai.SpikeGLX.SpikeGLX.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: Bonsai.SpikeGLX.SpikeGLX.Dispose(System.Boolean)
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: SpikeGLX.Dispose(bool)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Dispose(bool)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Dispose
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 299
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: Bonsai.SpikeGLX.SpikeGLX.Dispose*
+  nameWithType.vb: SpikeGLX.Dispose(Boolean)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Finalize
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Finalize
+  id: Finalize
+  parent: Bonsai.SpikeGLX.SpikeGLX
+  langs:
+  - csharp
+  - vb
+  name: ~SpikeGLX()
+  nameWithType: SpikeGLX.~SpikeGLX()
+  fullName: Bonsai.SpikeGLX.SpikeGLX.~SpikeGLX()
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeGLX.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Finalize
+    path: ../src/Bonsai.SpikeGLX/SpikeGLX.cs
+    startLine: 314
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  syntax:
+    content: protected ~SpikeGLX()
+    content.vb: 'Protected '
+  overload: Bonsai.SpikeGLX.SpikeGLX.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Bonsai.SpikeGLX
+  commentId: N:Bonsai.SpikeGLX
+  href: Bonsai.html
+  name: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  spec.csharp:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+  spec.vb:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Bonsai.SpikeGLX.SpikeGLXException
+  commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+  href: Bonsai.SpikeGLX.SpikeGLXException.html
+  name: SpikeGLXException
+  nameWithType: SpikeGLXException
+  fullName: Bonsai.SpikeGLX.SpikeGLXException
+- uid: Bonsai.SpikeGLX.SpikeGLX.#ctor*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.#ctor
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX__ctor_System_String_System_Int32_
+  name: SpikeGLX
+  nameWithType: SpikeGLX.SpikeGLX
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SpikeGLX
+  nameWithType.vb: SpikeGLX.New
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetGeomMap
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetGeomMap_System_Int32_
+  name: GetGeomMap
+  nameWithType: SpikeGLX.GetGeomMap
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParams*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetParams
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParams
+  name: GetParams
+  nameWithType: SpikeGLX.GetParams
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParams
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParamsImecCommon
+  name: GetParamsImecCommon
+  nameWithType: SpikeGLX.GetParamsImecCommon
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParamsImecProbe_System_Int32_
+  name: GetParamsImecProbe
+  nameWithType: SpikeGLX.GetParamsImecProbe
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamSampleRate_System_Int32_System_Int32_
+  name: GetStreamSampleRate
+  nameWithType: SpikeGLX.GetStreamSampleRate
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamI16ToVolts_System_Int32_System_Int32_System_Int32_
+  name: GetStreamI16ToVolts
+  nameWithType: SpikeGLX.GetStreamI16ToVolts
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamSampleCount_System_Int32_System_Int32_
+  name: GetStreamSampleCount
+  nameWithType: SpikeGLX.GetStreamSampleCount
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Bonsai.SpikeGLX.SpikeGLX.Fetch*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.Fetch
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Fetch_System_Int16____System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32___System_Int32_
+  name: Fetch
+  nameWithType: SpikeGLX.Fetch
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Fetch
+- uid: System.Int16[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short[]
+  nameWithType: short[]
+  fullName: short[]
+  nameWithType.vb: Short()
+  fullName.vb: Short()
+  name.vb: Short()
+  spec.csharp:
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: (
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: OpenCV.Net.Mat
+  commentId: T:OpenCV.Net.Mat
+  parent: OpenCV.Net
+  isExternal: true
+  name: Mat
+  nameWithType: Mat
+  fullName: OpenCV.Net.Mat
+- uid: OpenCV.Net
+  commentId: N:OpenCV.Net
+  isExternal: true
+  name: OpenCV.Net
+  nameWithType: OpenCV.Net
+  fullName: OpenCV.Net
+  spec.csharp:
+  - uid: OpenCV
+    name: OpenCV
+    isExternal: true
+  - name: .
+  - uid: OpenCV.Net
+    name: Net
+    isExternal: true
+  spec.vb:
+  - uid: OpenCV
+    name: OpenCV
+    isExternal: true
+  - name: .
+  - uid: OpenCV.Net
+    name: Net
+    isExternal: true
+- uid: Bonsai.SpikeGLX.SpikeGLX.FetchLatest*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.FetchLatest
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_FetchLatest_System_Int16____System_Int32_System_Int32_System_Int32_System_Int32___System_Int32_
+  name: FetchLatest
+  nameWithType: SpikeGLX.FetchLatest
+  fullName: Bonsai.SpikeGLX.SpikeGLX.FetchLatest
+- uid: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_SetDigitalOut_System_Int32_System_String_
+  name: SetDigitalOut
+  nameWithType: SpikeGLX.SetDigitalOut
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut
+- uid: Bonsai.SpikeGLX.SpikeGLX.TriggerGT*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.TriggerGT
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_TriggerGT_System_Int32_System_Int32_
+  name: TriggerGT
+  nameWithType: SpikeGLX.TriggerGT
+  fullName: Bonsai.SpikeGLX.SpikeGLX.TriggerGT
+- uid: Bonsai.SpikeGLX.SpikeGLX.Dispose*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.Dispose
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Dispose
+  name: Dispose
+  nameWithType: SpikeGLX.Dispose
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Bonsai.SpikeGLX.SpikeGLX.Finalize*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.Finalize
+  href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Finalize
+  name: ~SpikeGLX
+  nameWithType: SpikeGLX.~SpikeGLX
+  fullName: Bonsai.SpikeGLX.SpikeGLX.~SpikeGLX
+  spec.csharp:
+  - name: "~"
+  - uid: Bonsai.SpikeGLX.SpikeGLX.Finalize*
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Finalize

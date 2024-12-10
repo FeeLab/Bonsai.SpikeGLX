@@ -1,0 +1,823 @@
+### YamlMime:ManagedReference
+items:
+- uid: Bonsai.SpikeGLX.ImecChannelSelector
+  commentId: T:Bonsai.SpikeGLX.ImecChannelSelector
+  id: ImecChannelSelector
+  parent: Bonsai.SpikeGLX
+  children:
+  - Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  - Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  - Bonsai.SpikeGLX.ImecChannelSelector.Host
+  - Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  - Bonsai.SpikeGLX.ImecChannelSelector.Port
+  - Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  langs:
+  - csharp
+  - vb
+  name: ImecChannelSelector
+  nameWithType: ImecChannelSelector
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector
+  type: Class
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: ImecChannelSelector
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 12
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Represents an operator that automatically generates a an array of channel 
+
+    indices for SpikeFetch or SpikeStream.
+  example: []
+  syntax:
+    content: >-
+      [Combinator(MethodName = "Generate")]
+
+      [WorkflowElementCategory(ElementCategory.Source)]
+
+      public class ImecChannelSelector : Source<int[]>
+    content.vb: >-
+      <Combinator(MethodName:="Generate")>
+
+      <WorkflowElementCategory(ElementCategory.Source)>
+
+      Public Class ImecChannelSelector Inherits Source(Of Integer())
+  inheritance:
+  - System.Object
+  - Bonsai.Source{System.Int32[]}
+  inheritedMembers:
+  - Bonsai.Source{System.Int32[]}.Generate
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: Bonsai.CombinatorAttribute
+    ctor: Bonsai.CombinatorAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: MethodName
+      type: System.String
+      value: Generate
+  - type: Bonsai.WorkflowElementCategoryAttribute
+    ctor: Bonsai.WorkflowElementCategoryAttribute.#ctor(Bonsai.ElementCategory)
+    arguments:
+    - type: Bonsai.ElementCategory
+      value: 0
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Host
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.Host
+  id: Host
+  parent: Bonsai.SpikeGLX.ImecChannelSelector
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: ImecChannelSelector.Host
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Host
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Host
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 21
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the IP address of the SpikeGLX command server
+  example: []
+  syntax:
+    content: public string Host { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Host As String
+  overload: Bonsai.SpikeGLX.ImecChannelSelector.Host*
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Port
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.Port
+  id: Port
+  parent: Bonsai.SpikeGLX.ImecChannelSelector
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: ImecChannelSelector.Port
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Port
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Port
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 28
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the port of the SpikeGLX command server.
+  example: []
+  syntax:
+    content: public int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Port As Integer
+  overload: Bonsai.SpikeGLX.ImecChannelSelector.Port*
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  id: Channels
+  parent: Bonsai.SpikeGLX.ImecChannelSelector
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: ImecChannelSelector.Channels
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Channels
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 35
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Gets or sets the channels, represented as a comma separated list 
+
+    of ranges, e.g., "0:10,15:20". Ranges includes both ends.
+  example: []
+  syntax:
+    content: public string Channels { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Channels As String
+  overload: Bonsai.SpikeGLX.ImecChannelSelector.Channels*
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  id: MuxedWith
+  parent: Bonsai.SpikeGLX.ImecChannelSelector
+  langs:
+  - csharp
+  - vb
+  name: MuxedWith
+  nameWithType: ImecChannelSelector.MuxedWith
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: MuxedWith
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 44
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Gets or sets the the channel to optionally use to filter 
+
+    the resulting channel array to only those sampled at the 
+
+    same time.
+  example: []
+  syntax:
+    content: public int? MuxedWith { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property MuxedWith As Integer?
+  overload: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith*
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  id: ProbeNumber
+  parent: Bonsai.SpikeGLX.ImecChannelSelector
+  langs:
+  - csharp
+  - vb
+  name: ProbeNumber
+  nameWithType: ImecChannelSelector.ProbeNumber
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: ProbeNumber
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 52
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Gets or sets the IMEC probe number to produce the channel
+
+    array for.
+  example: []
+  syntax:
+    content: public int ProbeNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProbeNumber As Integer
+  overload: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber*
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  commentId: M:Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  id: Generate
+  parent: Bonsai.SpikeGLX.ImecChannelSelector
+  langs:
+  - csharp
+  - vb
+  name: Generate()
+  nameWithType: ImecChannelSelector.Generate()
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Generate()
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Generate
+    path: ../src/Bonsai.SpikeGLX/ImecChannelSelector.cs
+    startLine: 123
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Generates an observanle sequence of a single array of integers, containing channel
+
+    indicates for a SpikeFetch or SpikeStream marble.
+  example: []
+  syntax:
+    content: public override IObservable<int[]> Generate()
+    return:
+      type: System.IObservable{System.Int32[]}
+      description: >-
+        A sequence of a single array of integers representing channels for
+
+        a SpikeFetch or SpikeStream marble.
+    content.vb: Public Overrides Function Generate() As IObservable(Of Integer())
+  overridden: Bonsai.Source{System.Int32[]}.Generate
+  overload: Bonsai.SpikeGLX.ImecChannelSelector.Generate*
+references:
+- uid: Bonsai.SpikeGLX
+  commentId: N:Bonsai.SpikeGLX
+  href: Bonsai.html
+  name: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  spec.csharp:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+  spec.vb:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Bonsai.Source{System.Int32[]}
+  commentId: T:Bonsai.Source{System.Int32[]}
+  parent: Bonsai
+  definition: Bonsai.Source`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Source<int[]>
+  nameWithType: Source<int[]>
+  fullName: Bonsai.Source<int[]>
+  nameWithType.vb: Source(Of Integer())
+  fullName.vb: Bonsai.Source(Of Integer())
+  name.vb: Source(Of Integer())
+  spec.csharp:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: )
+- uid: Bonsai.Source{System.Int32[]}.Generate
+  commentId: M:Bonsai.Source{System.Int32[]}.Generate
+  parent: Bonsai.Source{System.Int32[]}
+  definition: Bonsai.Source`1.Generate
+  name: Generate()
+  nameWithType: Source<int[]>.Generate()
+  fullName: Bonsai.Source<int[]>.Generate()
+  nameWithType.vb: Source(Of Integer()).Generate()
+  fullName.vb: Bonsai.Source(Of Integer()).Generate()
+  spec.csharp:
+  - uid: Bonsai.Source{System.Int32[]}.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bonsai.Source{System.Int32[]}.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Bonsai.Source`1
+  commentId: T:Bonsai.Source`1
+  isExternal: true
+  name: Source<TSource>
+  nameWithType: Source<TSource>
+  fullName: Bonsai.Source<TSource>
+  nameWithType.vb: Source(Of TSource)
+  fullName.vb: Bonsai.Source(Of TSource)
+  name.vb: Source(Of TSource)
+  spec.csharp:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: Bonsai
+  commentId: N:Bonsai
+  isExternal: true
+  name: Bonsai
+  nameWithType: Bonsai
+  fullName: Bonsai
+- uid: Bonsai.Source`1.Generate
+  commentId: M:Bonsai.Source`1.Generate
+  isExternal: true
+  name: Generate()
+  nameWithType: Source<TSource>.Generate()
+  fullName: Bonsai.Source<TSource>.Generate()
+  nameWithType.vb: Source(Of TSource).Generate()
+  fullName.vb: Bonsai.Source(Of TSource).Generate()
+  spec.csharp:
+  - uid: Bonsai.Source`1.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bonsai.Source`1.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Host*
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Host
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Host
+  name: Host
+  nameWithType: ImecChannelSelector.Host
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Host
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Port*
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Port
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Port
+  name: Port
+  nameWithType: ImecChannelSelector.Port
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Port
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Channels*
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Channels
+  name: Channels
+  nameWithType: ImecChannelSelector.Channels
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Channels
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith*
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_MuxedWith
+  name: MuxedWith
+  nameWithType: ImecChannelSelector.MuxedWith
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber*
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_ProbeNumber
+  name: ProbeNumber
+  nameWithType: ImecChannelSelector.ProbeNumber
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Generate*
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  href: Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Generate
+  name: Generate
+  nameWithType: ImecChannelSelector.Generate
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Generate
+- uid: System.IObservable{System.Int32[]}
+  commentId: T:System.IObservable{System.Int32[]}
+  parent: System
+  definition: System.IObservable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<int[]>
+  nameWithType: IObservable<int[]>
+  fullName: System.IObservable<int[]>
+  nameWithType.vb: IObservable(Of Integer())
+  fullName.vb: System.IObservable(Of Integer())
+  name.vb: IObservable(Of Integer())
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: )
+- uid: System.IObservable`1
+  commentId: T:System.IObservable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<T>
+  nameWithType: IObservable<T>
+  fullName: System.IObservable<T>
+  nameWithType.vb: IObservable(Of T)
+  fullName.vb: System.IObservable(Of T)
+  name.vb: IObservable(Of T)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

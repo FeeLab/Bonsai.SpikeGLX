@@ -1,0 +1,1903 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Bonsai.SpikeGLX
+  name: Bonsai.SpikeGLX
+  href: api/Bonsai.SpikeGLX.html
+  commentId: N:Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+- uid: Bonsai.SpikeGLX.DigitalOutput
+  name: DigitalOutput
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html
+  commentId: T:Bonsai.SpikeGLX.DigitalOutput
+  fullName: Bonsai.SpikeGLX.DigitalOutput
+  nameWithType: DigitalOutput
+- uid: Bonsai.SpikeGLX.DigitalOutput.Channels
+  name: Channels
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Channels
+  commentId: P:Bonsai.SpikeGLX.DigitalOutput.Channels
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Channels
+  nameWithType: DigitalOutput.Channels
+- uid: Bonsai.SpikeGLX.DigitalOutput.Channels*
+  name: Channels
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Channels_
+  commentId: Overload:Bonsai.SpikeGLX.DigitalOutput.Channels
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Channels
+  nameWithType: DigitalOutput.Channels
+- uid: Bonsai.SpikeGLX.DigitalOutput.Host
+  name: Host
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Host
+  commentId: P:Bonsai.SpikeGLX.DigitalOutput.Host
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Host
+  nameWithType: DigitalOutput.Host
+- uid: Bonsai.SpikeGLX.DigitalOutput.Host*
+  name: Host
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Host_
+  commentId: Overload:Bonsai.SpikeGLX.DigitalOutput.Host
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Host
+  nameWithType: DigitalOutput.Host
+- uid: Bonsai.SpikeGLX.DigitalOutput.Port
+  name: Port
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Port
+  commentId: P:Bonsai.SpikeGLX.DigitalOutput.Port
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Port
+  nameWithType: DigitalOutput.Port
+- uid: Bonsai.SpikeGLX.DigitalOutput.Port*
+  name: Port
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Port_
+  commentId: Overload:Bonsai.SpikeGLX.DigitalOutput.Port
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Port
+  nameWithType: DigitalOutput.Port
+- uid: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Boolean})
+  name: Process(IObservable<bool>)
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Process_System_IObservable_System_Boolean__
+  commentId: M:Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Boolean})
+  name.vb: Process(IObservable(Of Boolean))
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable<bool>)
+  fullName.vb: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable(Of Boolean))
+  nameWithType: DigitalOutput.Process(IObservable<bool>)
+  nameWithType.vb: DigitalOutput.Process(IObservable(Of Boolean))
+- uid: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Double})
+  name: Process(IObservable<double>)
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Process_System_IObservable_System_Double__
+  commentId: M:Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Double})
+  name.vb: Process(IObservable(Of Double))
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable<double>)
+  fullName.vb: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable(Of Double))
+  nameWithType: DigitalOutput.Process(IObservable<double>)
+  nameWithType.vb: DigitalOutput.Process(IObservable(Of Double))
+- uid: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Int32})
+  name: Process(IObservable<int>)
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Process_System_IObservable_System_Int32__
+  commentId: M:Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Int32})
+  name.vb: Process(IObservable(Of Integer))
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable<int>)
+  fullName.vb: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable(Of Integer))
+  nameWithType: DigitalOutput.Process(IObservable<int>)
+  nameWithType.vb: DigitalOutput.Process(IObservable(Of Integer))
+- uid: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Single})
+  name: Process(IObservable<float>)
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Process_System_IObservable_System_Single__
+  commentId: M:Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable{System.Single})
+  name.vb: Process(IObservable(Of Single))
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable<float>)
+  fullName.vb: Bonsai.SpikeGLX.DigitalOutput.Process(System.IObservable(Of Single))
+  nameWithType: DigitalOutput.Process(IObservable<float>)
+  nameWithType.vb: DigitalOutput.Process(IObservable(Of Single))
+- uid: Bonsai.SpikeGLX.DigitalOutput.Process*
+  name: Process
+  href: api/Bonsai.SpikeGLX.DigitalOutput.html#Bonsai_SpikeGLX_DigitalOutput_Process_
+  commentId: Overload:Bonsai.SpikeGLX.DigitalOutput.Process
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.DigitalOutput.Process
+  nameWithType: DigitalOutput.Process
+- uid: Bonsai.SpikeGLX.ImecChannelSelector
+  name: ImecChannelSelector
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html
+  commentId: T:Bonsai.SpikeGLX.ImecChannelSelector
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector
+  nameWithType: ImecChannelSelector
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  name: Channels
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Channels
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  nameWithType: ImecChannelSelector.Channels
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Channels*
+  name: Channels
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Channels_
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Channels
+  nameWithType: ImecChannelSelector.Channels
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  name: Generate()
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Generate
+  commentId: M:Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Generate()
+  nameWithType: ImecChannelSelector.Generate()
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Generate*
+  name: Generate
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Generate_
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Generate
+  nameWithType: ImecChannelSelector.Generate
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Host
+  name: Host
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Host
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.Host
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Host
+  nameWithType: ImecChannelSelector.Host
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Host*
+  name: Host
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Host_
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Host
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Host
+  nameWithType: ImecChannelSelector.Host
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  name: MuxedWith
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_MuxedWith
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  nameWithType: ImecChannelSelector.MuxedWith
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith*
+  name: MuxedWith
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_MuxedWith_
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.MuxedWith
+  nameWithType: ImecChannelSelector.MuxedWith
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Port
+  name: Port
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Port
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.Port
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Port
+  nameWithType: ImecChannelSelector.Port
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.Port*
+  name: Port
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_Port_
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.Port
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.Port
+  nameWithType: ImecChannelSelector.Port
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  name: ProbeNumber
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_ProbeNumber
+  commentId: P:Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  nameWithType: ImecChannelSelector.ProbeNumber
+- uid: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber*
+  name: ProbeNumber
+  href: api/Bonsai.SpikeGLX.ImecChannelSelector.html#Bonsai_SpikeGLX_ImecChannelSelector_ProbeNumber_
+  commentId: Overload:Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.ImecChannelSelector.ProbeNumber
+  nameWithType: ImecChannelSelector.ProbeNumber
+- uid: Bonsai.SpikeGLX.NeuropixelsMuxGroups
+  name: NeuropixelsMuxGroups
+  href: api/Bonsai.SpikeGLX.NeuropixelsMuxGroups.html
+  commentId: T:Bonsai.SpikeGLX.NeuropixelsMuxGroups
+  fullName: Bonsai.SpikeGLX.NeuropixelsMuxGroups
+  nameWithType: NeuropixelsMuxGroups
+- uid: Bonsai.SpikeGLX.NeuropixelsMuxGroups.MuxTables
+  name: MuxTables
+  href: api/Bonsai.SpikeGLX.NeuropixelsMuxGroups.html#Bonsai_SpikeGLX_NeuropixelsMuxGroups_MuxTables
+  commentId: F:Bonsai.SpikeGLX.NeuropixelsMuxGroups.MuxTables
+  fullName: Bonsai.SpikeGLX.NeuropixelsMuxGroups.MuxTables
+  nameWithType: NeuropixelsMuxGroups.MuxTables
+- uid: Bonsai.SpikeGLX.SpikeFetch
+  name: SpikeFetch
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html
+  commentId: T:Bonsai.SpikeGLX.SpikeFetch
+  fullName: Bonsai.SpikeGLX.SpikeFetch
+  nameWithType: SpikeFetch
+- uid: Bonsai.SpikeGLX.SpikeFetch.Channels
+  name: Channels
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Channels
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Channels
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Channels
+  nameWithType: SpikeFetch.Channels
+- uid: Bonsai.SpikeGLX.SpikeFetch.Channels*
+  name: Channels
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Channels_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Channels
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Channels
+  nameWithType: SpikeFetch.Channels
+- uid: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  name: ConvertToVoltage
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_ConvertToVoltage
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  fullName: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  nameWithType: SpikeFetch.ConvertToVoltage
+- uid: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage*
+  name: ConvertToVoltage
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_ConvertToVoltage_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  nameWithType: SpikeFetch.ConvertToVoltage
+- uid: Bonsai.SpikeGLX.SpikeFetch.Downsample
+  name: Downsample
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Downsample
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Downsample
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Downsample
+  nameWithType: SpikeFetch.Downsample
+- uid: Bonsai.SpikeGLX.SpikeFetch.Downsample*
+  name: Downsample
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Downsample_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Downsample
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Downsample
+  nameWithType: SpikeFetch.Downsample
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  name: FetchLength
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_FetchLength
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  nameWithType: SpikeFetch.FetchLength
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchLength*
+  name: FetchLength
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_FetchLength_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  nameWithType: SpikeFetch.FetchLength
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  name: FetchPeriod
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_FetchPeriod
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  nameWithType: SpikeFetch.FetchPeriod
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod*
+  name: FetchPeriod
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_FetchPeriod_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  nameWithType: SpikeFetch.FetchPeriod
+- uid: Bonsai.SpikeGLX.SpikeFetch.Generate
+  name: Generate()
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Generate
+  commentId: M:Bonsai.SpikeGLX.SpikeFetch.Generate
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Generate()
+  nameWithType: SpikeFetch.Generate()
+- uid: Bonsai.SpikeGLX.SpikeFetch.Generate*
+  name: Generate
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Generate_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Generate
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Generate
+  nameWithType: SpikeFetch.Generate
+- uid: Bonsai.SpikeGLX.SpikeFetch.Generate``1(System.IObservable{``0})
+  name: Generate<TSource>(IObservable<TSource>)
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Generate__1_System_IObservable___0__
+  commentId: M:Bonsai.SpikeGLX.SpikeFetch.Generate``1(System.IObservable{``0})
+  name.vb: Generate(Of TSource)(IObservable(Of TSource))
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Generate<TSource>(System.IObservable<TSource>)
+  fullName.vb: Bonsai.SpikeGLX.SpikeFetch.Generate(Of TSource)(System.IObservable(Of TSource))
+  nameWithType: SpikeFetch.Generate<TSource>(IObservable<TSource>)
+  nameWithType.vb: SpikeFetch.Generate(Of TSource)(IObservable(Of TSource))
+- uid: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  name: HighResolutionTimer
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_HighResolutionTimer
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  fullName: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  nameWithType: SpikeFetch.HighResolutionTimer
+- uid: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer*
+  name: HighResolutionTimer
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_HighResolutionTimer_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  nameWithType: SpikeFetch.HighResolutionTimer
+- uid: Bonsai.SpikeGLX.SpikeFetch.Host
+  name: Host
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Host
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Host
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Host
+  nameWithType: SpikeFetch.Host
+- uid: Bonsai.SpikeGLX.SpikeFetch.Host*
+  name: Host
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Host_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Host
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Host
+  nameWithType: SpikeFetch.Host
+- uid: Bonsai.SpikeGLX.SpikeFetch.Port
+  name: Port
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Port
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Port
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Port
+  nameWithType: SpikeFetch.Port
+- uid: Bonsai.SpikeGLX.SpikeFetch.Port*
+  name: Port
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Port_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Port
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Port
+  nameWithType: SpikeFetch.Port
+- uid: Bonsai.SpikeGLX.SpikeFetch.StreamType
+  name: StreamType
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_StreamType
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.StreamType
+  fullName: Bonsai.SpikeGLX.SpikeFetch.StreamType
+  nameWithType: SpikeFetch.StreamType
+- uid: Bonsai.SpikeGLX.SpikeFetch.StreamType*
+  name: StreamType
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_StreamType_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.StreamType
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.StreamType
+  nameWithType: SpikeFetch.StreamType
+- uid: Bonsai.SpikeGLX.SpikeFetch.Substream
+  name: Substream
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Substream
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Substream
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Substream
+  nameWithType: SpikeFetch.Substream
+- uid: Bonsai.SpikeGLX.SpikeFetch.Substream*
+  name: Substream
+  href: api/Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Substream_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Substream
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Substream
+  nameWithType: SpikeFetch.Substream
+- uid: Bonsai.SpikeGLX.SpikeGLX
+  name: SpikeGLX
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html
+  commentId: T:Bonsai.SpikeGLX.SpikeGLX
+  fullName: Bonsai.SpikeGLX.SpikeGLX
+  nameWithType: SpikeGLX
+- uid: Bonsai.SpikeGLX.SpikeGLX.#ctor(System.String,System.Int32)
+  name: SpikeGLX(string, int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX__ctor_System_String_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.#ctor(System.String,System.Int32)
+  name.vb: New(String, Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SpikeGLX(string, int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.New(String, Integer)
+  nameWithType: SpikeGLX.SpikeGLX(string, int)
+  nameWithType.vb: SpikeGLX.New(String, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.#ctor*
+  name: SpikeGLX
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX__ctor_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SpikeGLX
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.New
+  nameWithType: SpikeGLX.SpikeGLX
+  nameWithType.vb: SpikeGLX.New
+- uid: Bonsai.SpikeGLX.SpikeGLX.Dispose
+  name: Dispose()
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Dispose
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Dispose
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Dispose()
+  nameWithType: SpikeGLX.Dispose()
+- uid: Bonsai.SpikeGLX.SpikeGLX.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Dispose_System_Boolean_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Dispose(bool)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.Dispose(Boolean)
+  nameWithType: SpikeGLX.Dispose(bool)
+  nameWithType.vb: SpikeGLX.Dispose(Boolean)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Dispose*
+  name: Dispose
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Dispose_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.Dispose
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Dispose
+  nameWithType: SpikeGLX.Dispose
+- uid: Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  name: Fetch(out Mat, int, int, ulong, int, int[], int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Fetch_OpenCV_Net_Mat__System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32___System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  name.vb: Fetch(Mat, Integer, Integer, ULong, Integer, Integer(), Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Fetch(out OpenCV.Net.Mat, int, int, ulong, int, int[], int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.Fetch(OpenCV.Net.Mat, Integer, Integer, ULong, Integer, Integer(), Integer)
+  nameWithType: SpikeGLX.Fetch(out Mat, int, int, ulong, int, int[], int)
+  nameWithType.vb: SpikeGLX.Fetch(Mat, Integer, Integer, ULong, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Fetch(System.Int16[]@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  name: Fetch(out short[], int, int, ulong, int, int[], int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Fetch_System_Int16____System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32___System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Fetch(System.Int16[]@,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  name.vb: Fetch(Short(), Integer, Integer, ULong, Integer, Integer(), Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Fetch(out short[], int, int, ulong, int, int[], int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.Fetch(Short(), Integer, Integer, ULong, Integer, Integer(), Integer)
+  nameWithType: SpikeGLX.Fetch(out short[], int, int, ulong, int, int[], int)
+  nameWithType.vb: SpikeGLX.Fetch(Short(), Integer, Integer, ULong, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.Fetch*
+  name: Fetch
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Fetch_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.Fetch
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.Fetch
+  nameWithType: SpikeGLX.Fetch
+- uid: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  name: FetchLatest(out Mat, int, int, int, int[], int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_FetchLatest_OpenCV_Net_Mat__System_Int32_System_Int32_System_Int32_System_Int32___System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  name.vb: FetchLatest(Mat, Integer, Integer, Integer, Integer(), Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(out OpenCV.Net.Mat, int, int, int, int[], int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(OpenCV.Net.Mat, Integer, Integer, Integer, Integer(), Integer)
+  nameWithType: SpikeGLX.FetchLatest(out Mat, int, int, int, int[], int)
+  nameWithType.vb: SpikeGLX.FetchLatest(Mat, Integer, Integer, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(System.Int16[]@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  name: FetchLatest(out short[], int, int, int, int[], int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_FetchLatest_System_Int16____System_Int32_System_Int32_System_Int32_System_Int32___System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.FetchLatest(System.Int16[]@,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  name.vb: FetchLatest(Short(), Integer, Integer, Integer, Integer(), Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(out short[], int, int, int, int[], int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.FetchLatest(Short(), Integer, Integer, Integer, Integer(), Integer)
+  nameWithType: SpikeGLX.FetchLatest(out short[], int, int, int, int[], int)
+  nameWithType.vb: SpikeGLX.FetchLatest(Short(), Integer, Integer, Integer, Integer(), Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.FetchLatest*
+  name: FetchLatest
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_FetchLatest_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.FetchLatest
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.FetchLatest
+  nameWithType: SpikeGLX.FetchLatest
+- uid: Bonsai.SpikeGLX.SpikeGLX.Finalize
+  name: ~SpikeGLX()
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Finalize
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.Finalize
+  name.vb: ''
+  fullName: Bonsai.SpikeGLX.SpikeGLX.~SpikeGLX()
+  fullName.vb: ''
+  nameWithType: SpikeGLX.~SpikeGLX()
+  nameWithType.vb: ''
+- uid: Bonsai.SpikeGLX.SpikeGLX.Finalize*
+  name: ~SpikeGLX
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_Finalize_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.Finalize
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.~SpikeGLX
+  nameWithType: SpikeGLX.~SpikeGLX
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(System.Int32)
+  name: GetGeomMap(int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetGeomMap_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(System.Int32)
+  name.vb: GetGeomMap(Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap(Integer)
+  nameWithType: SpikeGLX.GetGeomMap(int)
+  nameWithType.vb: SpikeGLX.GetGeomMap(Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap*
+  name: GetGeomMap
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetGeomMap_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetGeomMap
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetGeomMap
+  nameWithType: SpikeGLX.GetGeomMap
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParams
+  name: GetParams()
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParams
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetParams
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParams()
+  nameWithType: SpikeGLX.GetParams()
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParams*
+  name: GetParams
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParams_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetParams
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParams
+  nameWithType: SpikeGLX.GetParams
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  name: GetParamsImecCommon()
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParamsImecCommon
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon()
+  nameWithType: SpikeGLX.GetParamsImecCommon()
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon*
+  name: GetParamsImecCommon
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParamsImecCommon_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecCommon
+  nameWithType: SpikeGLX.GetParamsImecCommon
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(System.Int32)
+  name: GetParamsImecProbe(int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParamsImecProbe_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(System.Int32)
+  name.vb: GetParamsImecProbe(Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe(Integer)
+  nameWithType: SpikeGLX.GetParamsImecProbe(int)
+  nameWithType.vb: SpikeGLX.GetParamsImecProbe(Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe*
+  name: GetParamsImecProbe
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetParamsImecProbe_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetParamsImecProbe
+  nameWithType: SpikeGLX.GetParamsImecProbe
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(System.Int32,System.Int32,System.Int32)
+  name: GetStreamI16ToVolts(int, int, int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamI16ToVolts_System_Int32_System_Int32_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(System.Int32,System.Int32,System.Int32)
+  name.vb: GetStreamI16ToVolts(Integer, Integer, Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(int, int, int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts(Integer, Integer, Integer)
+  nameWithType: SpikeGLX.GetStreamI16ToVolts(int, int, int)
+  nameWithType.vb: SpikeGLX.GetStreamI16ToVolts(Integer, Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts*
+  name: GetStreamI16ToVolts
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamI16ToVolts_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamI16ToVolts
+  nameWithType: SpikeGLX.GetStreamI16ToVolts
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(System.Int32,System.Int32)
+  name: GetStreamSampleCount(int, int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamSampleCount_System_Int32_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(System.Int32,System.Int32)
+  name.vb: GetStreamSampleCount(Integer, Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(int, int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount(Integer, Integer)
+  nameWithType: SpikeGLX.GetStreamSampleCount(int, int)
+  nameWithType.vb: SpikeGLX.GetStreamSampleCount(Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount*
+  name: GetStreamSampleCount
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamSampleCount_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleCount
+  nameWithType: SpikeGLX.GetStreamSampleCount
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(System.Int32,System.Int32)
+  name: GetStreamSampleRate(int, int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamSampleRate_System_Int32_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(System.Int32,System.Int32)
+  name.vb: GetStreamSampleRate(Integer, Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(int, int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate(Integer, Integer)
+  nameWithType: SpikeGLX.GetStreamSampleRate(int, int)
+  nameWithType.vb: SpikeGLX.GetStreamSampleRate(Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate*
+  name: GetStreamSampleRate
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_GetStreamSampleRate_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.GetStreamSampleRate
+  nameWithType: SpikeGLX.GetStreamSampleRate
+- uid: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(System.Int32,System.String)
+  name: SetDigitalOut(int, string)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_SetDigitalOut_System_Int32_System_String_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(System.Int32,System.String)
+  name.vb: SetDigitalOut(Integer, String)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(int, string)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut(Integer, String)
+  nameWithType: SpikeGLX.SetDigitalOut(int, string)
+  nameWithType.vb: SpikeGLX.SetDigitalOut(Integer, String)
+- uid: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut*
+  name: SetDigitalOut
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_SetDigitalOut_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.SetDigitalOut
+  nameWithType: SpikeGLX.SetDigitalOut
+- uid: Bonsai.SpikeGLX.SpikeGLX.TriggerGT(System.Int32,System.Int32)
+  name: TriggerGT(int, int)
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_TriggerGT_System_Int32_System_Int32_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLX.TriggerGT(System.Int32,System.Int32)
+  name.vb: TriggerGT(Integer, Integer)
+  fullName: Bonsai.SpikeGLX.SpikeGLX.TriggerGT(int, int)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLX.TriggerGT(Integer, Integer)
+  nameWithType: SpikeGLX.TriggerGT(int, int)
+  nameWithType.vb: SpikeGLX.TriggerGT(Integer, Integer)
+- uid: Bonsai.SpikeGLX.SpikeGLX.TriggerGT*
+  name: TriggerGT
+  href: api/Bonsai.SpikeGLX.SpikeGLX.html#Bonsai_SpikeGLX_SpikeGLX_TriggerGT_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLX.TriggerGT
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLX.TriggerGT
+  nameWithType: SpikeGLX.TriggerGT
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream
+  name: SpikeGLXDataStream
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html
+  commentId: T:Bonsai.SpikeGLX.SpikeGLXDataStream
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream
+  nameWithType: SpikeGLXDataStream
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32[])
+  name: SpikeGLXDataStream(string, int, int, int, int[])
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream__ctor_System_String_System_Int32_System_Int32_System_Int32_System_Int32___
+  commentId: M:Bonsai.SpikeGLX.SpikeGLXDataStream.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32[])
+  name.vb: New(String, Integer, Integer, Integer, Integer())
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.SpikeGLXDataStream(string, int, int, int, int[])
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLXDataStream.New(String, Integer, Integer, Integer, Integer())
+  nameWithType: SpikeGLXDataStream.SpikeGLXDataStream(string, int, int, int, int[])
+  nameWithType.vb: SpikeGLXDataStream.New(String, Integer, Integer, Integer, Integer())
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.#ctor*
+  name: SpikeGLXDataStream
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream__ctor_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLXDataStream.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.SpikeGLXDataStream
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLXDataStream.New
+  nameWithType: SpikeGLXDataStream.SpikeGLXDataStream
+  nameWithType.vb: SpikeGLXDataStream.New
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.Channels
+  name: Channels
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_Channels
+  commentId: F:Bonsai.SpikeGLX.SpikeGLXDataStream.Channels
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.Channels
+  nameWithType: SpikeGLXDataStream.Channels
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch(OpenCV.Net.Mat@,System.UInt64,System.Int32,System.Int32,System.Boolean)
+  name: Fetch(out Mat, ulong, int, int, bool)
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_Fetch_OpenCV_Net_Mat__System_UInt64_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch(OpenCV.Net.Mat@,System.UInt64,System.Int32,System.Int32,System.Boolean)
+  name.vb: Fetch(Mat, ULong, Integer, Integer, Boolean)
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch(out OpenCV.Net.Mat, ulong, int, int, bool)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch(OpenCV.Net.Mat, ULong, Integer, Integer, Boolean)
+  nameWithType: SpikeGLXDataStream.Fetch(out Mat, ulong, int, int, bool)
+  nameWithType.vb: SpikeGLXDataStream.Fetch(Mat, ULong, Integer, Integer, Boolean)
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch*
+  name: Fetch
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_Fetch_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.Fetch
+  nameWithType: SpikeGLXDataStream.Fetch
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Boolean)
+  name: FetchLatest(out Mat, int, int, bool)
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_FetchLatest_OpenCV_Net_Mat__System_Int32_System_Int32_System_Boolean_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest(OpenCV.Net.Mat@,System.Int32,System.Int32,System.Boolean)
+  name.vb: FetchLatest(Mat, Integer, Integer, Boolean)
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest(out OpenCV.Net.Mat, int, int, bool)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest(OpenCV.Net.Mat, Integer, Integer, Boolean)
+  nameWithType: SpikeGLXDataStream.FetchLatest(out Mat, int, int, bool)
+  nameWithType.vb: SpikeGLXDataStream.FetchLatest(Mat, Integer, Integer, Boolean)
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest*
+  name: FetchLatest
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_FetchLatest_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.FetchLatest
+  nameWithType: SpikeGLXDataStream.FetchLatest
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleCount
+  name: GetStreamSampleCount()
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_GetStreamSampleCount
+  commentId: M:Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleCount
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleCount()
+  nameWithType: SpikeGLXDataStream.GetStreamSampleCount()
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleCount*
+  name: GetStreamSampleCount
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_GetStreamSampleCount_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleCount
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleCount
+  nameWithType: SpikeGLXDataStream.GetStreamSampleCount
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleRate
+  name: GetStreamSampleRate()
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_GetStreamSampleRate
+  commentId: M:Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleRate
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleRate()
+  nameWithType: SpikeGLXDataStream.GetStreamSampleRate()
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleRate*
+  name: GetStreamSampleRate
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_GetStreamSampleRate_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleRate
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.GetStreamSampleRate
+  nameWithType: SpikeGLXDataStream.GetStreamSampleRate
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.IP
+  name: IP
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_IP
+  commentId: F:Bonsai.SpikeGLX.SpikeGLXDataStream.IP
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.IP
+  nameWithType: SpikeGLXDataStream.IP
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.JS
+  name: JS
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_JS
+  commentId: F:Bonsai.SpikeGLX.SpikeGLXDataStream.JS
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.JS
+  nameWithType: SpikeGLXDataStream.JS
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.Mults
+  name: Mults
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_Mults
+  commentId: F:Bonsai.SpikeGLX.SpikeGLXDataStream.Mults
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.Mults
+  nameWithType: SpikeGLXDataStream.Mults
+- uid: Bonsai.SpikeGLX.SpikeGLXDataStream.SampleRate
+  name: SampleRate
+  href: api/Bonsai.SpikeGLX.SpikeGLXDataStream.html#Bonsai_SpikeGLX_SpikeGLXDataStream_SampleRate
+  commentId: F:Bonsai.SpikeGLX.SpikeGLXDataStream.SampleRate
+  fullName: Bonsai.SpikeGLX.SpikeGLXDataStream.SampleRate
+  nameWithType: SpikeGLXDataStream.SampleRate
+- uid: Bonsai.SpikeGLX.SpikeGLXException
+  name: SpikeGLXException
+  href: api/Bonsai.SpikeGLX.SpikeGLXException.html
+  commentId: T:Bonsai.SpikeGLX.SpikeGLXException
+  fullName: Bonsai.SpikeGLX.SpikeGLXException
+  nameWithType: SpikeGLXException
+- uid: Bonsai.SpikeGLX.SpikeGLXException.#ctor(System.IntPtr)
+  name: SpikeGLXException(IntPtr)
+  href: api/Bonsai.SpikeGLX.SpikeGLXException.html#Bonsai_SpikeGLX_SpikeGLXException__ctor_System_IntPtr_
+  commentId: M:Bonsai.SpikeGLX.SpikeGLXException.#ctor(System.IntPtr)
+  name.vb: New(IntPtr)
+  fullName: Bonsai.SpikeGLX.SpikeGLXException.SpikeGLXException(System.IntPtr)
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLXException.New(System.IntPtr)
+  nameWithType: SpikeGLXException.SpikeGLXException(IntPtr)
+  nameWithType.vb: SpikeGLXException.New(IntPtr)
+- uid: Bonsai.SpikeGLX.SpikeGLXException.#ctor*
+  name: SpikeGLXException
+  href: api/Bonsai.SpikeGLX.SpikeGLXException.html#Bonsai_SpikeGLX_SpikeGLXException__ctor_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeGLXException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Bonsai.SpikeGLX.SpikeGLXException.SpikeGLXException
+  fullName.vb: Bonsai.SpikeGLX.SpikeGLXException.New
+  nameWithType: SpikeGLXException.SpikeGLXException
+  nameWithType.vb: SpikeGLXException.New
+- uid: Bonsai.SpikeGLX.SpikeStream
+  name: SpikeStream
+  href: api/Bonsai.SpikeGLX.SpikeStream.html
+  commentId: T:Bonsai.SpikeGLX.SpikeStream
+  fullName: Bonsai.SpikeGLX.SpikeStream
+  nameWithType: SpikeStream
+- uid: Bonsai.SpikeGLX.SpikeStream.BufferLength
+  name: BufferLength
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_BufferLength
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.BufferLength
+  fullName: Bonsai.SpikeGLX.SpikeStream.BufferLength
+  nameWithType: SpikeStream.BufferLength
+- uid: Bonsai.SpikeGLX.SpikeStream.BufferLength*
+  name: BufferLength
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_BufferLength_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.BufferLength
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.BufferLength
+  nameWithType: SpikeStream.BufferLength
+- uid: Bonsai.SpikeGLX.SpikeStream.Channels
+  name: Channels
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Channels
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.Channels
+  fullName: Bonsai.SpikeGLX.SpikeStream.Channels
+  nameWithType: SpikeStream.Channels
+- uid: Bonsai.SpikeGLX.SpikeStream.Channels*
+  name: Channels
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Channels_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.Channels
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.Channels
+  nameWithType: SpikeStream.Channels
+- uid: Bonsai.SpikeGLX.SpikeStream.ConvertToVoltage
+  name: ConvertToVoltage
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_ConvertToVoltage
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.ConvertToVoltage
+  fullName: Bonsai.SpikeGLX.SpikeStream.ConvertToVoltage
+  nameWithType: SpikeStream.ConvertToVoltage
+- uid: Bonsai.SpikeGLX.SpikeStream.ConvertToVoltage*
+  name: ConvertToVoltage
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_ConvertToVoltage_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.ConvertToVoltage
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.ConvertToVoltage
+  nameWithType: SpikeStream.ConvertToVoltage
+- uid: Bonsai.SpikeGLX.SpikeStream.Downsample
+  name: Downsample
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Downsample
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.Downsample
+  fullName: Bonsai.SpikeGLX.SpikeStream.Downsample
+  nameWithType: SpikeStream.Downsample
+- uid: Bonsai.SpikeGLX.SpikeStream.Downsample*
+  name: Downsample
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Downsample_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.Downsample
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.Downsample
+  nameWithType: SpikeStream.Downsample
+- uid: Bonsai.SpikeGLX.SpikeStream.Generate
+  name: Generate()
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Generate
+  commentId: M:Bonsai.SpikeGLX.SpikeStream.Generate
+  fullName: Bonsai.SpikeGLX.SpikeStream.Generate()
+  nameWithType: SpikeStream.Generate()
+- uid: Bonsai.SpikeGLX.SpikeStream.Generate*
+  name: Generate
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Generate_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.Generate
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.Generate
+  nameWithType: SpikeStream.Generate
+- uid: Bonsai.SpikeGLX.SpikeStream.HighResolutionTimer
+  name: HighResolutionTimer
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_HighResolutionTimer
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.HighResolutionTimer
+  fullName: Bonsai.SpikeGLX.SpikeStream.HighResolutionTimer
+  nameWithType: SpikeStream.HighResolutionTimer
+- uid: Bonsai.SpikeGLX.SpikeStream.HighResolutionTimer*
+  name: HighResolutionTimer
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_HighResolutionTimer_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.HighResolutionTimer
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.HighResolutionTimer
+  nameWithType: SpikeStream.HighResolutionTimer
+- uid: Bonsai.SpikeGLX.SpikeStream.Host
+  name: Host
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Host
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.Host
+  fullName: Bonsai.SpikeGLX.SpikeStream.Host
+  nameWithType: SpikeStream.Host
+- uid: Bonsai.SpikeGLX.SpikeStream.Host*
+  name: Host
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Host_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.Host
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.Host
+  nameWithType: SpikeStream.Host
+- uid: Bonsai.SpikeGLX.SpikeStream.Port
+  name: Port
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Port
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.Port
+  fullName: Bonsai.SpikeGLX.SpikeStream.Port
+  nameWithType: SpikeStream.Port
+- uid: Bonsai.SpikeGLX.SpikeStream.Port*
+  name: Port
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Port_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.Port
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.Port
+  nameWithType: SpikeStream.Port
+- uid: Bonsai.SpikeGLX.SpikeStream.StreamType
+  name: StreamType
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_StreamType
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.StreamType
+  fullName: Bonsai.SpikeGLX.SpikeStream.StreamType
+  nameWithType: SpikeStream.StreamType
+- uid: Bonsai.SpikeGLX.SpikeStream.StreamType*
+  name: StreamType
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_StreamType_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.StreamType
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.StreamType
+  nameWithType: SpikeStream.StreamType
+- uid: Bonsai.SpikeGLX.SpikeStream.Substream
+  name: Substream
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Substream
+  commentId: P:Bonsai.SpikeGLX.SpikeStream.Substream
+  fullName: Bonsai.SpikeGLX.SpikeStream.Substream
+  nameWithType: SpikeStream.Substream
+- uid: Bonsai.SpikeGLX.SpikeStream.Substream*
+  name: Substream
+  href: api/Bonsai.SpikeGLX.SpikeStream.html#Bonsai_SpikeGLX_SpikeStream_Substream_
+  commentId: Overload:Bonsai.SpikeGLX.SpikeStream.Substream
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.SpikeStream.Substream
+  nameWithType: SpikeStream.Substream
+- uid: Bonsai.SpikeGLX.TriggerRecording
+  name: TriggerRecording
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html
+  commentId: T:Bonsai.SpikeGLX.TriggerRecording
+  fullName: Bonsai.SpikeGLX.TriggerRecording
+  nameWithType: TriggerRecording
+- uid: Bonsai.SpikeGLX.TriggerRecording.Host
+  name: Host
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Host
+  commentId: P:Bonsai.SpikeGLX.TriggerRecording.Host
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Host
+  nameWithType: TriggerRecording.Host
+- uid: Bonsai.SpikeGLX.TriggerRecording.Host*
+  name: Host
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Host_
+  commentId: Overload:Bonsai.SpikeGLX.TriggerRecording.Host
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Host
+  nameWithType: TriggerRecording.Host
+- uid: Bonsai.SpikeGLX.TriggerRecording.Port
+  name: Port
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Port
+  commentId: P:Bonsai.SpikeGLX.TriggerRecording.Port
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Port
+  nameWithType: TriggerRecording.Port
+- uid: Bonsai.SpikeGLX.TriggerRecording.Port*
+  name: Port
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Port_
+  commentId: Overload:Bonsai.SpikeGLX.TriggerRecording.Port
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Port
+  nameWithType: TriggerRecording.Port
+- uid: Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable{System.Tuple{System.Int32,System.Int32}})
+  name: Process(IObservable<Tuple<int, int>>)
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Process_System_IObservable_System_Tuple_System_Int32_System_Int32___
+  commentId: M:Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable{System.Tuple{System.Int32,System.Int32}})
+  name.vb: Process(IObservable(Of Tuple(Of Integer, Integer)))
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable<System.Tuple<int, int>>)
+  fullName.vb: Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable(Of System.Tuple(Of Integer, Integer)))
+  nameWithType: TriggerRecording.Process(IObservable<Tuple<int, int>>)
+  nameWithType.vb: TriggerRecording.Process(IObservable(Of Tuple(Of Integer, Integer)))
+- uid: Bonsai.SpikeGLX.TriggerRecording.Process*
+  name: Process
+  href: api/Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Process_
+  commentId: Overload:Bonsai.SpikeGLX.TriggerRecording.Process
+  isSpec: "True"
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Process
+  nameWithType: TriggerRecording.Process
+- uid: C_Sglx_namespace
+  name: C_Sglx_namespace
+  href: api/C_Sglx_namespace.html
+  commentId: N:C_Sglx_namespace
+  fullName: C_Sglx_namespace
+  nameWithType: C_Sglx_namespace
+- uid: C_Sglx_namespace.C_Sglx
+  name: C_Sglx
+  href: api/C_Sglx_namespace.C_Sglx.html
+  commentId: T:C_Sglx_namespace.C_Sglx
+  fullName: C_Sglx_namespace.C_Sglx
+  nameWithType: C_Sglx
+- uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+  name: C_Sglx.ProgressCallback
+  href: api/C_Sglx_namespace.C_Sglx.ProgressCallback.html
+  commentId: T:C_Sglx_namespace.C_Sglx.ProgressCallback
+  fullName: C_Sglx_namespace.C_Sglx.ProgressCallback
+  nameWithType: C_Sglx.ProgressCallback
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  name: c_sglx_close(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_close_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_close(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_close*
+  name: c_sglx_close
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_close_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_close
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_close
+  nameWithType: C_Sglx.c_sglx_close
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr,System.String,System.Int32)
+  name: c_sglx_connect(IntPtr, string, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_connect_System_IntPtr_System_String_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr,System.String,System.Int32)
+  name.vb: c_sglx_connect(IntPtr, String, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr, string, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr, String, Integer)
+  nameWithType: C_Sglx.c_sglx_connect(IntPtr, string, int)
+  nameWithType.vb: C_Sglx.c_sglx_connect(IntPtr, String, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_connect*
+  name: c_sglx_connect
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_connect_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_connect
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_connect
+  nameWithType: C_Sglx.c_sglx_connect
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  name: c_sglx_consoleHide(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_consoleHide_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_consoleHide(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide*
+  name: c_sglx_consoleHide
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_consoleHide_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_consoleHide
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide
+  nameWithType: C_Sglx.c_sglx_consoleHide
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  name: c_sglx_consoleShow(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_consoleShow_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_consoleShow(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow*
+  name: c_sglx_consoleShow
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_consoleShow_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_consoleShow
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow
+  nameWithType: C_Sglx.c_sglx_consoleShow
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  name: c_sglx_createHandle()
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_createHandle
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_createHandle()
+  nameWithType: C_Sglx.c_sglx_createHandle()
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_createHandle*
+  name: c_sglx_createHandle
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_createHandle_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  nameWithType: C_Sglx.c_sglx_createHandle
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  name: c_sglx_destroyHandle(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_destroyHandle_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_destroyHandle(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle*
+  name: c_sglx_destroyHandle
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_destroyHandle_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle
+  nameWithType: C_Sglx.c_sglx_destroyHandle
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(System.Int32@,System.IntPtr,System.Int32)
+  name: c_sglx_enumDataDir(out int, IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_enumDataDir_System_Int32__System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(System.Int32@,System.IntPtr,System.Int32)
+  name.vb: c_sglx_enumDataDir(Integer, IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(out int, System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(Integer, System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_enumDataDir(out int, IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_enumDataDir(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir*
+  name: c_sglx_enumDataDir
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_enumDataDir_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir
+  nameWithType: C_Sglx.c_sglx_enumDataDir
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(System.Int32@,System.IntPtr,System.Int32)
+  name: c_sglx_getGeomMap(out int, IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getGeomMap_System_Int32__System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(System.Int32@,System.IntPtr,System.Int32)
+  name.vb: c_sglx_getGeomMap(Integer, IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(out int, System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(Integer, System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_getGeomMap(out int, IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_getGeomMap(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap*
+  name: c_sglx_getGeomMap
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getGeomMap_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap
+  nameWithType: C_Sglx.c_sglx_getGeomMap
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getImecChanGains(out double, out double, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getImecChanGains_System_Double__System_Double__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getImecChanGains(Double, Double, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(out double, out double, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(Double, Double, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getImecChanGains(out double, out double, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getImecChanGains(Double, Double, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains*
+  name: c_sglx_getImecChanGains
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getImecChanGains_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains
+  nameWithType: C_Sglx.c_sglx_getImecChanGains
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(System.Int32@,System.IntPtr)
+  name: c_sglx_getNIShankMap(out int, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getNIShankMap_System_Int32__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(System.Int32@,System.IntPtr)
+  name.vb: c_sglx_getNIShankMap(Integer, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(out int, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(Integer, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_getNIShankMap(out int, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_getNIShankMap(Integer, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap*
+  name: c_sglx_getNIShankMap
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getNIShankMap_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap
+  nameWithType: C_Sglx.c_sglx_getNIShankMap
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParams(System.Int32@,System.IntPtr)
+  name: c_sglx_getParams(out int, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParams_System_Int32__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParams(System.Int32@,System.IntPtr)
+  name.vb: c_sglx_getParams(Integer, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParams(out int, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParams(Integer, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_getParams(out int, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_getParams(Integer, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParams*
+  name: c_sglx_getParams
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParams_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParams
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParams
+  nameWithType: C_Sglx.c_sglx_getParams
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(System.Int32@,System.IntPtr)
+  name: c_sglx_getParamsImecCommon(out int, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsImecCommon_System_Int32__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(System.Int32@,System.IntPtr)
+  name.vb: c_sglx_getParamsImecCommon(Integer, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(out int, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(Integer, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_getParamsImecCommon(out int, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_getParamsImecCommon(Integer, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon*
+  name: c_sglx_getParamsImecCommon
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsImecCommon_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon
+  nameWithType: C_Sglx.c_sglx_getParamsImecCommon
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(System.Int32@,System.IntPtr,System.Int32)
+  name: c_sglx_getParamsImecProbe(out int, IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsImecProbe_System_Int32__System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(System.Int32@,System.IntPtr,System.Int32)
+  name.vb: c_sglx_getParamsImecProbe(Integer, IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(out int, System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(Integer, System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_getParamsImecProbe(out int, IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_getParamsImecProbe(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe*
+  name: c_sglx_getParamsImecProbe
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsImecProbe_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe
+  nameWithType: C_Sglx.c_sglx_getParamsImecProbe
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(System.Int32@,System.IntPtr,System.Int32)
+  name: c_sglx_getParamsOneBox(out int, IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsOneBox_System_Int32__System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(System.Int32@,System.IntPtr,System.Int32)
+  name.vb: c_sglx_getParamsOneBox(Integer, IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(out int, System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(Integer, System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_getParamsOneBox(out int, IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_getParamsOneBox(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox*
+  name: c_sglx_getParamsOneBox
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsOneBox_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox
+  nameWithType: C_Sglx.c_sglx_getParamsOneBox
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamAcqChans(out int, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamAcqChans_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamAcqChans(Integer, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(out int, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(Integer, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamAcqChans(out int, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamAcqChans(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans*
+  name: c_sglx_getStreamAcqChans
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamAcqChans_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans
+  nameWithType: C_Sglx.c_sglx_getStreamAcqChans
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamFileStart(IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamFileStart_System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamFileStart(IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamFileStart(IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamFileStart(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart*
+  name: c_sglx_getStreamFileStart
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamFileStart_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart
+  nameWithType: C_Sglx.c_sglx_getStreamFileStart
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(System.Double@,System.IntPtr,System.Int32,System.Int32,System.Int32)
+  name: c_sglx_getStreamI16ToVolts(out double, IntPtr, int, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamI16ToVolts_System_Double__System_IntPtr_System_Int32_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(System.Double@,System.IntPtr,System.Int32,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamI16ToVolts(Double, IntPtr, Integer, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(out double, System.IntPtr, int, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(Double, System.IntPtr, Integer, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamI16ToVolts(out double, IntPtr, int, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamI16ToVolts(Double, IntPtr, Integer, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts*
+  name: c_sglx_getStreamI16ToVolts
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamI16ToVolts_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts
+  nameWithType: C_Sglx.c_sglx_getStreamI16ToVolts
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamMaxInt(out int, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamMaxInt_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamMaxInt(Integer, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(out int, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(Integer, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamMaxInt(out int, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamMaxInt(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt*
+  name: c_sglx_getStreamMaxInt
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamMaxInt_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt
+  nameWithType: C_Sglx.c_sglx_getStreamMaxInt
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(System.Int32@,System.IntPtr,System.Int32)
+  name: c_sglx_getStreamNP(out int, IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamNP_System_Int32__System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(System.Int32@,System.IntPtr,System.Int32)
+  name.vb: c_sglx_getStreamNP(Integer, IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(out int, System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(Integer, System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamNP(out int, IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamNP(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP*
+  name: c_sglx_getStreamNP
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamNP_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP
+  nameWithType: C_Sglx.c_sglx_getStreamNP
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamSampleCount(IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSampleCount_System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamSampleCount(IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamSampleCount(IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamSampleCount(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount*
+  name: c_sglx_getStreamSampleCount
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSampleCount_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount
+  nameWithType: C_Sglx.c_sglx_getStreamSampleCount
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamSampleRate(IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSampleRate_System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamSampleRate(IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamSampleRate(IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamSampleRate(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate*
+  name: c_sglx_getStreamSampleRate
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSampleRate_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate
+  nameWithType: C_Sglx.c_sglx_getStreamSampleRate
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamSaveChans(out int, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSaveChans_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamSaveChans(Integer, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(out int, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(Integer, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamSaveChans(out int, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamSaveChans(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans*
+  name: c_sglx_getStreamSaveChans
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSaveChans_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans
+  nameWithType: C_Sglx.c_sglx_getStreamSaveChans
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_getStreamVoltageRange(out double, out double, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamVoltageRange_System_Double__System_Double__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_getStreamVoltageRange(Double, Double, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(out double, out double, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(Double, Double, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_getStreamVoltageRange(out double, out double, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_getStreamVoltageRange(Double, Double, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange*
+  name: c_sglx_getStreamVoltageRange
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamVoltageRange_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange
+  nameWithType: C_Sglx.c_sglx_getStreamVoltageRange
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  name: c_sglx_getTime(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getTime_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_getTime(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getTime*
+  name: c_sglx_getTime
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getTime_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getTime
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getTime
+  nameWithType: C_Sglx.c_sglx_getTime
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr,System.Int32)
+  name: c_sglx_getdbl(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getdbl_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr,System.Int32)
+  name.vb: c_sglx_getdbl(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_getdbl(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_getdbl(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getdbl*
+  name: c_sglx_getdbl
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getdbl_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getdbl
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getdbl
+  nameWithType: C_Sglx.c_sglx_getdbl
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr,System.Int32)
+  name: c_sglx_getint(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getint_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr,System.Int32)
+  name.vb: c_sglx_getint(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_getint(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_getint(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getint*
+  name: c_sglx_getint
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getint_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getint
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getint
+  nameWithType: C_Sglx.c_sglx_getint
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(System.Byte@,System.IntPtr)
+  name: c_sglx_isConsoleHidden(out byte, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isConsoleHidden_System_Byte__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(System.Byte@,System.IntPtr)
+  name.vb: c_sglx_isConsoleHidden(Byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(out byte, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(Byte, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_isConsoleHidden(out byte, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_isConsoleHidden(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden*
+  name: c_sglx_isConsoleHidden
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isConsoleHidden_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden
+  nameWithType: C_Sglx.c_sglx_isConsoleHidden
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(System.Byte@,System.IntPtr)
+  name: c_sglx_isInitialized(out byte, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isInitialized_System_Byte__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(System.Byte@,System.IntPtr)
+  name.vb: c_sglx_isInitialized(Byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(out byte, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(Byte, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_isInitialized(out byte, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_isInitialized(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized*
+  name: c_sglx_isInitialized
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isInitialized_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isInitialized
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized
+  nameWithType: C_Sglx.c_sglx_isInitialized
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isRunning(System.Byte@,System.IntPtr)
+  name: c_sglx_isRunning(out byte, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isRunning_System_Byte__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isRunning(System.Byte@,System.IntPtr)
+  name.vb: c_sglx_isRunning(Byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isRunning(out byte, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isRunning(Byte, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_isRunning(out byte, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_isRunning(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isRunning*
+  name: c_sglx_isRunning
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isRunning_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isRunning
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isRunning
+  nameWithType: C_Sglx.c_sglx_isRunning
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isSaving(System.Byte@,System.IntPtr)
+  name: c_sglx_isSaving(out byte, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isSaving_System_Byte__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isSaving(System.Byte@,System.IntPtr)
+  name.vb: c_sglx_isSaving(Byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isSaving(out byte, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isSaving(Byte, System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_isSaving(out byte, IntPtr)
+  nameWithType.vb: C_Sglx.c_sglx_isSaving(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isSaving*
+  name: c_sglx_isSaving
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isSaving_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isSaving
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isSaving
+  nameWithType: C_Sglx.c_sglx_isSaving
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(System.Byte@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_isUserOrder(out byte, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isUserOrder_System_Byte__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(System.Byte@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_isUserOrder(Byte, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(out byte, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(Byte, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_isUserOrder(out byte, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_isUserOrder(Byte, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder*
+  name: c_sglx_isUserOrder
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isUserOrder_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder
+  nameWithType: C_Sglx.c_sglx_isUserOrder
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32)
+  name: c_sglx_mapSample(IntPtr, int, int, ulong, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_mapSample_System_IntPtr_System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32)
+  name.vb: c_sglx_mapSample(IntPtr, Integer, Integer, ULong, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr, int, int, ulong, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr, Integer, Integer, ULong, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_mapSample(IntPtr, int, int, ulong, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_mapSample(IntPtr, Integer, Integer, ULong, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_mapSample*
+  name: c_sglx_mapSample
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_mapSample_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_mapSample
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_mapSample
+  nameWithType: C_Sglx.c_sglx_mapSample
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr,System.Int32,System.Int32,System.Int32)
+  name: c_sglx_opto_emit(IntPtr, int, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_opto_emit_System_IntPtr_System_Int32_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr,System.Int32,System.Int32,System.Int32)
+  name.vb: c_sglx_opto_emit(IntPtr, Integer, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr, int, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr, Integer, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_opto_emit(IntPtr, int, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_opto_emit(IntPtr, Integer, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit*
+  name: c_sglx_opto_emit
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_opto_emit_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_opto_emit
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit
+  nameWithType: C_Sglx.c_sglx_opto_emit
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_opto_getAttenuations(out int, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_opto_getAttenuations_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_opto_getAttenuations(Integer, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(out int, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(Integer, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_opto_getAttenuations(out int, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_opto_getAttenuations(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations*
+  name: c_sglx_opto_getAttenuations
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_opto_getAttenuations_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations
+  nameWithType: C_Sglx.c_sglx_opto_getAttenuations
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.Char,System.String)
+  name: c_sglx_par2(ProgressCallback, IntPtr, char, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_par2_C_Sglx_namespace_C_Sglx_ProgressCallback_System_IntPtr_System_Char_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.Char,System.String)
+  name.vb: c_sglx_par2(ProgressCallback, IntPtr, Char, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, char, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, Char, String)
+  nameWithType: C_Sglx.c_sglx_par2(C_Sglx.ProgressCallback, IntPtr, char, string)
+  nameWithType.vb: C_Sglx.c_sglx_par2(C_Sglx.ProgressCallback, IntPtr, Char, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_par2*
+  name: c_sglx_par2
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_par2_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_par2
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_par2
+  nameWithType: C_Sglx.c_sglx_par2
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr,System.String)
+  name: c_sglx_setAnatomy_Pinpoint(IntPtr, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAnatomy_Pinpoint_System_IntPtr_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr,System.String)
+  name.vb: c_sglx_setAnatomy_Pinpoint(IntPtr, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr, String)
+  nameWithType: C_Sglx.c_sglx_setAnatomy_Pinpoint(IntPtr, string)
+  nameWithType.vb: C_Sglx.c_sglx_setAnatomy_Pinpoint(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint*
+  name: c_sglx_setAnatomy_Pinpoint
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAnatomy_Pinpoint_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint
+  nameWithType: C_Sglx.c_sglx_setAnatomy_Pinpoint
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr,System.Int32)
+  name: c_sglx_setAudioEnable(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAudioEnable_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr,System.Int32)
+  name.vb: c_sglx_setAudioEnable(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_setAudioEnable(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_setAudioEnable(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable*
+  name: c_sglx_setAudioEnable
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAudioEnable_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable
+  nameWithType: C_Sglx.c_sglx_setAudioEnable
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr,System.String)
+  name: c_sglx_setAudioKVParams(IntPtr, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAudioKVParams_System_IntPtr_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr,System.String)
+  name.vb: c_sglx_setAudioKVParams(IntPtr, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr, String)
+  nameWithType: C_Sglx.c_sglx_setAudioKVParams(IntPtr, string)
+  nameWithType.vb: C_Sglx.c_sglx_setAudioKVParams(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams*
+  name: c_sglx_setAudioKVParams
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAudioKVParams_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams
+  nameWithType: C_Sglx.c_sglx_setAudioKVParams
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr,System.Int32,System.String)
+  name: c_sglx_setDataDir(IntPtr, int, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setDataDir_System_IntPtr_System_Int32_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr,System.Int32,System.String)
+  name.vb: c_sglx_setDataDir(IntPtr, Integer, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr, int, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr, Integer, String)
+  nameWithType: C_Sglx.c_sglx_setDataDir(IntPtr, int, string)
+  nameWithType.vb: C_Sglx.c_sglx_setDataDir(IntPtr, Integer, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir*
+  name: c_sglx_setDataDir
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setDataDir_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setDataDir
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir
+  nameWithType: C_Sglx.c_sglx_setDataDir
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr,System.Int32,System.String)
+  name: c_sglx_setDigitalOut(IntPtr, int, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setDigitalOut_System_IntPtr_System_Int32_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr,System.Int32,System.String)
+  name.vb: c_sglx_setDigitalOut(IntPtr, Integer, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr, int, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr, Integer, String)
+  nameWithType: C_Sglx.c_sglx_setDigitalOut(IntPtr, int, string)
+  nameWithType.vb: C_Sglx.c_sglx_setDigitalOut(IntPtr, Integer, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut*
+  name: c_sglx_setDigitalOut
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setDigitalOut_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut
+  nameWithType: C_Sglx.c_sglx_setDigitalOut
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  name: c_sglx_setKVMetadata(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVMetadata_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_setKVMetadata(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata*
+  name: c_sglx_setKVMetadata
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVMetadata_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata
+  nameWithType: C_Sglx.c_sglx_setKVMetadata
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  name: c_sglx_setKVParams(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParams_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_setKVParams(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams*
+  name: c_sglx_setKVParams
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParams_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParams
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams
+  nameWithType: C_Sglx.c_sglx_setKVParams
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  name: c_sglx_setKVParamsImecCommon(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsImecCommon_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecCommon(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon*
+  name: c_sglx_setKVParamsImecCommon
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsImecCommon_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecCommon
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr,System.Int32)
+  name: c_sglx_setKVParamsImecProbe(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsImecProbe_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr,System.Int32)
+  name.vb: c_sglx_setKVParamsImecProbe(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecProbe(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_setKVParamsImecProbe(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe*
+  name: c_sglx_setKVParamsImecProbe
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsImecProbe_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecProbe
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr,System.Int32)
+  name: c_sglx_setKVParamsOneBox(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsOneBox_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr,System.Int32)
+  name.vb: c_sglx_setKVParamsOneBox(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_setKVParamsOneBox(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_setKVParamsOneBox(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox*
+  name: c_sglx_setKVParamsOneBox
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsOneBox_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox
+  nameWithType: C_Sglx.c_sglx_setKVParamsOneBox
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr,System.Int32)
+  name: c_sglx_setMultiDriveEnable(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setMultiDriveEnable_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr,System.Int32)
+  name.vb: c_sglx_setMultiDriveEnable(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_setMultiDriveEnable(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_setMultiDriveEnable(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable*
+  name: c_sglx_setMultiDriveEnable
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setMultiDriveEnable_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable
+  nameWithType: C_Sglx.c_sglx_setMultiDriveEnable
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr,System.String)
+  name: c_sglx_setNextFileName(IntPtr, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setNextFileName_System_IntPtr_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr,System.String)
+  name.vb: c_sglx_setNextFileName(IntPtr, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr, String)
+  nameWithType: C_Sglx.c_sglx_setNextFileName(IntPtr, string)
+  nameWithType.vb: C_Sglx.c_sglx_setNextFileName(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName*
+  name: c_sglx_setNextFileName
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setNextFileName_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName
+  nameWithType: C_Sglx.c_sglx_setNextFileName
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr,System.Int32)
+  name: c_sglx_setRecordingEnable(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setRecordingEnable_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr,System.Int32)
+  name.vb: c_sglx_setRecordingEnable(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr, Integer)
+  nameWithType: C_Sglx.c_sglx_setRecordingEnable(IntPtr, int)
+  nameWithType.vb: C_Sglx.c_sglx_setRecordingEnable(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable*
+  name: c_sglx_setRecordingEnable
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setRecordingEnable_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable
+  nameWithType: C_Sglx.c_sglx_setRecordingEnable
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr,System.String)
+  name: c_sglx_setRunName(IntPtr, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setRunName_System_IntPtr_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr,System.String)
+  name.vb: c_sglx_setRunName(IntPtr, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr, String)
+  nameWithType: C_Sglx.c_sglx_setRunName(IntPtr, string)
+  nameWithType.vb: C_Sglx.c_sglx_setRunName(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRunName*
+  name: c_sglx_setRunName
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setRunName_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setRunName
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRunName
+  nameWithType: C_Sglx.c_sglx_setRunName
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_setTriggerOffBeep(IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setTriggerOffBeep_System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_setTriggerOffBeep(IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_setTriggerOffBeep(IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_setTriggerOffBeep(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep*
+  name: c_sglx_setTriggerOffBeep
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setTriggerOffBeep_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep
+  nameWithType: C_Sglx.c_sglx_setTriggerOffBeep
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_setTriggerOnBeep(IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setTriggerOnBeep_System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_setTriggerOnBeep(IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_setTriggerOnBeep(IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_setTriggerOnBeep(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep*
+  name: c_sglx_setTriggerOnBeep
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setTriggerOnBeep_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep
+  nameWithType: C_Sglx.c_sglx_setTriggerOnBeep
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr,System.String,System.String)
+  name: c_sglx_setkv(IntPtr, string, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setkv_System_IntPtr_System_String_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr,System.String,System.String)
+  name.vb: c_sglx_setkv(IntPtr, String, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr, string, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr, String, String)
+  nameWithType: C_Sglx.c_sglx_setkv(IntPtr, string, string)
+  nameWithType.vb: C_Sglx.c_sglx_setkv(IntPtr, String, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setkv*
+  name: c_sglx_setkv
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setkv_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setkv
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setkv
+  nameWithType: C_Sglx.c_sglx_setkv
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr,System.String)
+  name: c_sglx_startRun(IntPtr, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_startRun_System_IntPtr_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr,System.String)
+  name.vb: c_sglx_startRun(IntPtr, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr, String)
+  nameWithType: C_Sglx.c_sglx_startRun(IntPtr, string)
+  nameWithType.vb: C_Sglx.c_sglx_startRun(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_startRun*
+  name: c_sglx_startRun
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_startRun_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_startRun
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_startRun
+  nameWithType: C_Sglx.c_sglx_startRun
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  name: c_sglx_stopRun(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_stopRun_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  nameWithType: C_Sglx.c_sglx_stopRun(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_stopRun*
+  name: c_sglx_stopRun
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_stopRun_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_stopRun
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_stopRun
+  nameWithType: C_Sglx.c_sglx_stopRun
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr,System.Int32,System.Int32)
+  name: c_sglx_triggerGT(IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_triggerGT_System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr,System.Int32,System.Int32)
+  name.vb: c_sglx_triggerGT(IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.c_sglx_triggerGT(IntPtr, int, int)
+  nameWithType.vb: C_Sglx.c_sglx_triggerGT(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT*
+  name: c_sglx_triggerGT
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_triggerGT_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_triggerGT
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT
+  nameWithType: C_Sglx.c_sglx_triggerGT
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.String)
+  name: c_sglx_verifySha1(ProgressCallback, IntPtr, string)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_verifySha1_C_Sglx_namespace_C_Sglx_ProgressCallback_System_IntPtr_System_String_
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.String)
+  name.vb: c_sglx_verifySha1(ProgressCallback, IntPtr, String)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, string)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, String)
+  nameWithType: C_Sglx.c_sglx_verifySha1(C_Sglx.ProgressCallback, IntPtr, string)
+  nameWithType.vb: C_Sglx.c_sglx_verifySha1(C_Sglx.ProgressCallback, IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1*
+  name: c_sglx_verifySha1
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_verifySha1_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_verifySha1
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1
+  nameWithType: C_Sglx.c_sglx_verifySha1
+- uid: C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  name: cs_demoCallback(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_demoCallback_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  nameWithType: C_Sglx.cs_demoCallback(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.cs_demoCallback*
+  name: cs_demoCallback
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_demoCallback_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_demoCallback
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_demoCallback
+  nameWithType: C_Sglx.cs_demoCallback
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetch(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  name: cs_sglx_fetch(out short[], IntPtr, int, int, ulong, int, int[], int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_fetch_System_Int16____System_IntPtr_System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32___System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_fetch(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  name.vb: cs_sglx_fetch(Short(), IntPtr, Integer, Integer, ULong, Integer, Integer(), Integer)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetch(out short[], System.IntPtr, int, int, ulong, int, int[], int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_fetch(Short(), System.IntPtr, Integer, Integer, ULong, Integer, Integer(), Integer)
+  nameWithType: C_Sglx.cs_sglx_fetch(out short[], IntPtr, int, int, ulong, int, int[], int)
+  nameWithType.vb: C_Sglx.cs_sglx_fetch(Short(), IntPtr, Integer, Integer, ULong, Integer, Integer(), Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetch*
+  name: cs_sglx_fetch
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_fetch_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_fetch
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetch
+  nameWithType: C_Sglx.cs_sglx_fetch
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  name: cs_sglx_fetchLatest(out short[], IntPtr, int, int, int, int[], int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_fetchLatest_System_Int16____System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32___System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  name.vb: cs_sglx_fetchLatest(Short(), IntPtr, Integer, Integer, Integer, Integer(), Integer)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(out short[], System.IntPtr, int, int, int, int[], int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(Short(), System.IntPtr, Integer, Integer, Integer, Integer(), Integer)
+  nameWithType: C_Sglx.cs_sglx_fetchLatest(out short[], IntPtr, int, int, int, int[], int)
+  nameWithType.vb: C_Sglx.cs_sglx_fetchLatest(Short(), IntPtr, Integer, Integer, Integer, Integer(), Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest*
+  name: cs_sglx_fetchLatest
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_fetchLatest_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest
+  nameWithType: C_Sglx.cs_sglx_fetchLatest
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(System.String@,System.IntPtr,System.Int32)
+  name: cs_sglx_getDataDir(out string, IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getDataDir_System_String__System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(System.String@,System.IntPtr,System.Int32)
+  name.vb: cs_sglx_getDataDir(String, IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(out string, System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(String, System.IntPtr, Integer)
+  nameWithType: C_Sglx.cs_sglx_getDataDir(out string, IntPtr, int)
+  nameWithType.vb: C_Sglx.cs_sglx_getDataDir(String, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir*
+  name: cs_sglx_getDataDir
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getDataDir_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir
+  nameWithType: C_Sglx.cs_sglx_getDataDir
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  name: cs_sglx_getError(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getError_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getError(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getError*
+  name: cs_sglx_getError
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getError_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getError
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getError
+  nameWithType: C_Sglx.cs_sglx_getError
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(System.String@,System.IntPtr)
+  name: cs_sglx_getProbeList(out string, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getProbeList_System_String__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(System.String@,System.IntPtr)
+  name.vb: cs_sglx_getProbeList(String, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(out string, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(String, System.IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getProbeList(out string, IntPtr)
+  nameWithType.vb: C_Sglx.cs_sglx_getProbeList(String, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList*
+  name: cs_sglx_getProbeList
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getProbeList_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList
+  nameWithType: C_Sglx.cs_sglx_getProbeList
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(System.String@,System.IntPtr)
+  name: cs_sglx_getRunName(out string, IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getRunName_System_String__System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(System.String@,System.IntPtr)
+  name.vb: cs_sglx_getRunName(String, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(out string, System.IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(String, System.IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getRunName(out string, IntPtr)
+  nameWithType.vb: C_Sglx.cs_sglx_getRunName(String, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName*
+  name: cs_sglx_getRunName
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getRunName_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getRunName
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName
+  nameWithType: C_Sglx.cs_sglx_getRunName
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(System.Int32@,System.String@,System.IntPtr,System.Int32,System.Int32)
+  name: cs_sglx_getStreamSN(out int, out string, IntPtr, int, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getStreamSN_System_Int32__System_String__System_IntPtr_System_Int32_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(System.Int32@,System.String@,System.IntPtr,System.Int32,System.Int32)
+  name.vb: cs_sglx_getStreamSN(Integer, String, IntPtr, Integer, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(out int, out string, System.IntPtr, int, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(Integer, String, System.IntPtr, Integer, Integer)
+  nameWithType: C_Sglx.cs_sglx_getStreamSN(out int, out string, IntPtr, int, int)
+  nameWithType.vb: C_Sglx.cs_sglx_getStreamSN(Integer, String, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN*
+  name: cs_sglx_getStreamSN
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getStreamSN_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN
+  nameWithType: C_Sglx.cs_sglx_getStreamSN
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  name: cs_sglx_getVersion(IntPtr)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getVersion_System_IntPtr_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getVersion(IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion*
+  name: cs_sglx_getVersion
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getVersion_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getVersion
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion
+  nameWithType: C_Sglx.cs_sglx_getVersion
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr,System.Int32)
+  name: cs_sglx_getstr(IntPtr, int)
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getstr_System_IntPtr_System_Int32_
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr,System.Int32)
+  name.vb: cs_sglx_getstr(IntPtr, Integer)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr, int)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr, Integer)
+  nameWithType: C_Sglx.cs_sglx_getstr(IntPtr, int)
+  nameWithType.vb: C_Sglx.cs_sglx_getstr(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getstr*
+  name: cs_sglx_getstr
+  href: api/C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getstr_
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getstr
+  isSpec: "True"
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getstr
+  nameWithType: C_Sglx.cs_sglx_getstr

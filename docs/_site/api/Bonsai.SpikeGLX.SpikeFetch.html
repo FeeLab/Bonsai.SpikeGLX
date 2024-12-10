@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SpikeFetch | Bonsai - SpikeGLX </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SpikeFetch | Bonsai - SpikeGLX ">
+      
+      <meta name="description" content="Represents an operator that generates a sequence of the latest buffers of data from a SpikeGLX data stream.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/FeeLab/bonsai-spikeglx/new/5-add-documentation-with-docfx/apiSpec/new?filename=Bonsai_SpikeGLX_SpikeFetch.md&amp;value=---%0Auid%3A%20Bonsai.SpikeGLX.SpikeFetch%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Bonsai - SpikeGLX">
+            Bonsai - SpikeGLX
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Bonsai.SpikeGLX.SpikeFetch">
+
+
+
+  <h1 id="Bonsai_SpikeGLX_SpikeFetch" data-uid="Bonsai.SpikeGLX.SpikeFetch" class="text-break">
+Class SpikeFetch  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Bonsai.html">Bonsai</a>.<a class="xref" href="Bonsai.SpikeGLX.html">SpikeGLX</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Bonsai.SpikeGLX.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents an operator that generates a sequence of the latest buffers of data
+from a SpikeGLX data stream.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Combinator(MethodName = &quot;Generate&quot;)]
+[WorkflowElementCategory(ElementCategory.Source)]
+public class SpikeFetch : Source&lt;Mat&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Source</span>&lt;<span class="xref">Mat</span>&gt;</div>
+      <div><span class="xref">SpikeFetch</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Channels_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Channels*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Channels" data-uid="Bonsai.SpikeGLX.SpikeFetch.Channels">
+  Channels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the array of channels to fetch data from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] Channels { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_ConvertToVoltage_" data-uid="Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_ConvertToVoltage" data-uid="Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage">
+  ConvertToVoltage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the flag to convert the fetched data from a unitless quantity
+to a voltage, in volts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ConvertToVoltage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Downsample_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Downsample*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Downsample" data-uid="Bonsai.SpikeGLX.SpikeFetch.Downsample">
+  Downsample
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the factor by which fetched data is downsampled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Downsample { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_FetchLength_" data-uid="Bonsai.SpikeGLX.SpikeFetch.FetchLength*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_FetchLength" data-uid="Bonsai.SpikeGLX.SpikeFetch.FetchLength">
+  FetchLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the duration of fetched data, in ms.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FetchLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_FetchPeriod_" data-uid="Bonsai.SpikeGLX.SpikeFetch.FetchPeriod*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_FetchPeriod" data-uid="Bonsai.SpikeGLX.SpikeFetch.FetchPeriod">
+  FetchPeriod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the period at which to fetch data, in ms. Only relevant
+if no external input is provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FetchPeriod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_HighResolutionTimer_" data-uid="Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_HighResolutionTimer" data-uid="Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer">
+  HighResolutionTimer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the flag to use a high resolution timer (~1ms vs. ~15ms). Only relevant
+if no external input is provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HighResolutionTimer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Host_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Host*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Host" data-uid="Bonsai.SpikeGLX.SpikeFetch.Host">
+  Host
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the IP address of the SpikeGLX command server</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Host { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Port_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Port*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Port" data-uid="Bonsai.SpikeGLX.SpikeFetch.Port">
+  Port
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the port of the SpikeGLX command server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Port { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_StreamType_" data-uid="Bonsai.SpikeGLX.SpikeFetch.StreamType*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_StreamType" data-uid="Bonsai.SpikeGLX.SpikeFetch.StreamType">
+  StreamType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int StreamType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Substream_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Substream*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Substream" data-uid="Bonsai.SpikeGLX.SpikeFetch.Substream">
+  Substream
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the substream (0 for NIDAQ, probe number for IMEC Probe).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Substream { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Generate_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Generate*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Generate" data-uid="Bonsai.SpikeGLX.SpikeFetch.Generate">
+  Generate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates an observable sequence of buffers of data fetched from a SpikeGLX data stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IObservable&lt;Mat&gt; Generate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd><p>A sequence of <span class="xref">OpenCV.Net.Mat</span> objects representing buffers of fetched data from a
+SpikeGLX data stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Bonsai_SpikeGLX_SpikeFetch_Generate_" data-uid="Bonsai.SpikeGLX.SpikeFetch.Generate*"></a>
+
+  <h3 id="Bonsai_SpikeGLX_SpikeFetch_Generate__1_System_IObservable___0__" data-uid="Bonsai.SpikeGLX.SpikeFetch.Generate``1(System.IObservable{``0})">
+  Generate&lt;TSource&gt;(IObservable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates an observable sequence of buffers of data fetched from a SpikeGLX data stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;Mat&gt; Generate&lt;TSource&gt;(IObservable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;TSource&gt;</dt>
+    <dd><p>Input sequence used to trigger fetching. A new buffer is fetched every time the input sequence
+emits a notification.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd><p>A sequence of <span class="xref">OpenCV.Net.Mat</span> objects representing buffers of fetched data from a
+SpikeGLX data stream.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/FeeLab/bonsai-spikeglx/blob/5-add-documentation-with-docfx/src/Bonsai.SpikeGLX/SpikeFetch.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

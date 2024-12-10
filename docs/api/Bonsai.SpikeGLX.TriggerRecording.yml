@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: Bonsai.SpikeGLX.TriggerRecording
+  commentId: T:Bonsai.SpikeGLX.TriggerRecording
+  id: TriggerRecording
+  parent: Bonsai.SpikeGLX
+  children:
+  - Bonsai.SpikeGLX.TriggerRecording.Host
+  - Bonsai.SpikeGLX.TriggerRecording.Port
+  - Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable{System.Tuple{System.Int32,System.Int32}})
+  langs:
+  - csharp
+  - vb
+  name: TriggerRecording
+  nameWithType: TriggerRecording
+  fullName: Bonsai.SpikeGLX.TriggerRecording
+  type: Class
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/TriggerRecording.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: TriggerRecording
+    path: ../src/Bonsai.SpikeGLX/TriggerRecording.cs
+    startLine: 10
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  syntax:
+    content: >-
+      [Combinator]
+
+      [WorkflowElementCategory(ElementCategory.Sink)]
+
+      public class TriggerRecording
+    content.vb: >-
+      <Combinator>
+
+      <WorkflowElementCategory(ElementCategory.Sink)>
+
+      Public Class TriggerRecording
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: Bonsai.CombinatorAttribute
+    ctor: Bonsai.CombinatorAttribute.#ctor
+    arguments: []
+  - type: Bonsai.WorkflowElementCategoryAttribute
+    ctor: Bonsai.WorkflowElementCategoryAttribute.#ctor(Bonsai.ElementCategory)
+    arguments:
+    - type: Bonsai.ElementCategory
+      value: 3
+- uid: Bonsai.SpikeGLX.TriggerRecording.Host
+  commentId: P:Bonsai.SpikeGLX.TriggerRecording.Host
+  id: Host
+  parent: Bonsai.SpikeGLX.TriggerRecording
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: TriggerRecording.Host
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Host
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/TriggerRecording.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Host
+    path: ../src/Bonsai.SpikeGLX/TriggerRecording.cs
+    startLine: 20
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the IP address of the SpikeGLX command server
+  example: []
+  syntax:
+    content: public string Host { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Host As String
+  overload: Bonsai.SpikeGLX.TriggerRecording.Host*
+- uid: Bonsai.SpikeGLX.TriggerRecording.Port
+  commentId: P:Bonsai.SpikeGLX.TriggerRecording.Port
+  id: Port
+  parent: Bonsai.SpikeGLX.TriggerRecording
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: TriggerRecording.Port
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Port
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/TriggerRecording.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Port
+    path: ../src/Bonsai.SpikeGLX/TriggerRecording.cs
+    startLine: 26
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the port of the SpikeGLX command server.
+  example: []
+  syntax:
+    content: public int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Port As Integer
+  overload: Bonsai.SpikeGLX.TriggerRecording.Port*
+- uid: Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable{System.Tuple{System.Int32,System.Int32}})
+  commentId: M:Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable{System.Tuple{System.Int32,System.Int32}})
+  id: Process(System.IObservable{System.Tuple{System.Int32,System.Int32}})
+  parent: Bonsai.SpikeGLX.TriggerRecording
+  langs:
+  - csharp
+  - vb
+  name: Process(IObservable<Tuple<int, int>>)
+  nameWithType: TriggerRecording.Process(IObservable<Tuple<int, int>>)
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable<System.Tuple<int, int>>)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/TriggerRecording.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Process
+    path: ../src/Bonsai.SpikeGLX/TriggerRecording.cs
+    startLine: 43
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Sets the gate and trigger values in SpikeGLX
+  example: []
+  syntax:
+    content: public IObservable<Tuple<int, int>> Process(IObservable<Tuple<int, int>> source)
+    parameters:
+    - id: source
+      type: System.IObservable{System.Tuple{System.Int32,System.Int32}}
+      description: >-
+        A sequence of Tuples of two Ints used to set the gate and trigger (in that order).
+            -1: no change
+             0: set low
+             1: set high
+    return:
+      type: System.IObservable{System.Tuple{System.Int32,System.Int32}}
+      description: >-
+        An observable sequence that is identical to the <code class="paramref">source</code> sequence
+
+        but where there is an additional side effect of setting the gate and trigger values
+
+        in SpikeGLX.
+    content.vb: Public Function Process(source As IObservable(Of Tuple(Of Integer, Integer))) As IObservable(Of Tuple(Of Integer, Integer))
+  overload: Bonsai.SpikeGLX.TriggerRecording.Process*
+  nameWithType.vb: TriggerRecording.Process(IObservable(Of Tuple(Of Integer, Integer)))
+  fullName.vb: Bonsai.SpikeGLX.TriggerRecording.Process(System.IObservable(Of System.Tuple(Of Integer, Integer)))
+  name.vb: Process(IObservable(Of Tuple(Of Integer, Integer)))
+references:
+- uid: Bonsai.SpikeGLX
+  commentId: N:Bonsai.SpikeGLX
+  href: Bonsai.html
+  name: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  spec.csharp:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+  spec.vb:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Bonsai.SpikeGLX.TriggerRecording.Host*
+  commentId: Overload:Bonsai.SpikeGLX.TriggerRecording.Host
+  href: Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Host
+  name: Host
+  nameWithType: TriggerRecording.Host
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Host
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Bonsai.SpikeGLX.TriggerRecording.Port*
+  commentId: Overload:Bonsai.SpikeGLX.TriggerRecording.Port
+  href: Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Port
+  name: Port
+  nameWithType: TriggerRecording.Port
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Port
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Bonsai.SpikeGLX.TriggerRecording.Process*
+  commentId: Overload:Bonsai.SpikeGLX.TriggerRecording.Process
+  href: Bonsai.SpikeGLX.TriggerRecording.html#Bonsai_SpikeGLX_TriggerRecording_Process_System_IObservable_System_Tuple_System_Int32_System_Int32___
+  name: Process
+  nameWithType: TriggerRecording.Process
+  fullName: Bonsai.SpikeGLX.TriggerRecording.Process
+- uid: System.IObservable{System.Tuple{System.Int32,System.Int32}}
+  commentId: T:System.IObservable{System.Tuple{System.Int32,System.Int32}}
+  parent: System
+  definition: System.IObservable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<Tuple<int, int>>
+  nameWithType: IObservable<Tuple<int, int>>
+  fullName: System.IObservable<System.Tuple<int, int>>
+  nameWithType.vb: IObservable(Of Tuple(Of Integer, Integer))
+  fullName.vb: System.IObservable(Of System.Tuple(Of Integer, Integer))
+  name.vb: IObservable(Of Tuple(Of Integer, Integer))
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: System.IObservable`1
+  commentId: T:System.IObservable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<T>
+  nameWithType: IObservable<T>
+  fullName: System.IObservable<T>
+  nameWithType.vb: IObservable(Of T)
+  fullName.vb: System.IObservable(Of T)
+  name.vb: IObservable(Of T)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

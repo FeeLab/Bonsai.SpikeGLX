@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: C_Sglx_namespace
+  commentId: N:C_Sglx_namespace
+  id: C_Sglx_namespace
+  children:
+  - C_Sglx_namespace.C_Sglx
+  - C_Sglx_namespace.C_Sglx.ProgressCallback
+  langs:
+  - csharp
+  - vb
+  name: C_Sglx_namespace
+  nameWithType: C_Sglx_namespace
+  fullName: C_Sglx_namespace
+  type: Namespace
+  assemblies:
+  - Bonsai.SpikeGLX
+references:
+- uid: C_Sglx_namespace.C_Sglx
+  commentId: T:C_Sglx_namespace.C_Sglx
+  href: C_Sglx_namespace.C_Sglx.html
+  name: C_Sglx
+  nameWithType: C_Sglx
+  fullName: C_Sglx_namespace.C_Sglx
+- uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+  commentId: T:C_Sglx_namespace.C_Sglx.ProgressCallback
+  parent: C_Sglx_namespace
+  href: C_Sglx_namespace.C_Sglx.html
+  name: C_Sglx.ProgressCallback
+  nameWithType: C_Sglx.ProgressCallback
+  fullName: C_Sglx_namespace.C_Sglx.ProgressCallback
+  spec.csharp:
+  - uid: C_Sglx_namespace.C_Sglx
+    name: C_Sglx
+    href: C_Sglx_namespace.C_Sglx.html
+  - name: .
+  - uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+    name: ProgressCallback
+    href: C_Sglx_namespace.C_Sglx.ProgressCallback.html
+  spec.vb:
+  - uid: C_Sglx_namespace.C_Sglx
+    name: C_Sglx
+    href: C_Sglx_namespace.C_Sglx.html
+  - name: .
+  - uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+    name: ProgressCallback
+    href: C_Sglx_namespace.C_Sglx.ProgressCallback.html
+- uid: C_Sglx_namespace
+  commentId: N:C_Sglx_namespace
+  href: C_Sglx_namespace.html
+  name: C_Sglx_namespace
+  nameWithType: C_Sglx_namespace
+  fullName: C_Sglx_namespace

@@ -1,0 +1,1083 @@
+### YamlMime:ManagedReference
+items:
+- uid: Bonsai.SpikeGLX.SpikeFetch
+  commentId: T:Bonsai.SpikeGLX.SpikeFetch
+  id: SpikeFetch
+  parent: Bonsai.SpikeGLX
+  children:
+  - Bonsai.SpikeGLX.SpikeFetch.Channels
+  - Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  - Bonsai.SpikeGLX.SpikeFetch.Downsample
+  - Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  - Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  - Bonsai.SpikeGLX.SpikeFetch.Generate
+  - Bonsai.SpikeGLX.SpikeFetch.Generate``1(System.IObservable{``0})
+  - Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  - Bonsai.SpikeGLX.SpikeFetch.Host
+  - Bonsai.SpikeGLX.SpikeFetch.Port
+  - Bonsai.SpikeGLX.SpikeFetch.StreamType
+  - Bonsai.SpikeGLX.SpikeFetch.Substream
+  langs:
+  - csharp
+  - vb
+  name: SpikeFetch
+  nameWithType: SpikeFetch
+  fullName: Bonsai.SpikeGLX.SpikeFetch
+  type: Class
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: SpikeFetch
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 13
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Represents an operator that generates a sequence of the latest buffers of data
+
+    from a SpikeGLX data stream.
+  example: []
+  syntax:
+    content: >-
+      [Combinator(MethodName = "Generate")]
+
+      [WorkflowElementCategory(ElementCategory.Source)]
+
+      public class SpikeFetch : Source<Mat>
+    content.vb: >-
+      <Combinator(MethodName:="Generate")>
+
+      <WorkflowElementCategory(ElementCategory.Source)>
+
+      Public Class SpikeFetch Inherits Source(Of Mat)
+  inheritance:
+  - System.Object
+  - Bonsai.Source{OpenCV.Net.Mat}
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: Bonsai.CombinatorAttribute
+    ctor: Bonsai.CombinatorAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: MethodName
+      type: System.String
+      value: Generate
+  - type: Bonsai.WorkflowElementCategoryAttribute
+    ctor: Bonsai.WorkflowElementCategoryAttribute.#ctor(Bonsai.ElementCategory)
+    arguments:
+    - type: Bonsai.ElementCategory
+      value: 0
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  id: FetchLength
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: FetchLength
+  nameWithType: SpikeFetch.FetchLength
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: FetchLength
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 21
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the duration of fetched data, in ms.
+  example: []
+  syntax:
+    content: public int FetchLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FetchLength As Integer
+  overload: Bonsai.SpikeGLX.SpikeFetch.FetchLength*
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  id: FetchPeriod
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: FetchPeriod
+  nameWithType: SpikeFetch.FetchPeriod
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: FetchPeriod
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 28
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Gets or sets the period at which to fetch data, in ms. Only relevant
+
+    if no external input is provided.
+  example: []
+  syntax:
+    content: public int FetchPeriod { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FetchPeriod As Integer
+  overload: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Host
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Host
+  id: Host
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: SpikeFetch.Host
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Host
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Host
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 34
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the IP address of the SpikeGLX command server
+  example: []
+  syntax:
+    content: public string Host { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Host As String
+  overload: Bonsai.SpikeGLX.SpikeFetch.Host*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Port
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Port
+  id: Port
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: SpikeFetch.Port
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Port
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Port
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 41
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the port of the SpikeGLX command server.
+  example: []
+  syntax:
+    content: public int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Port As Integer
+  overload: Bonsai.SpikeGLX.SpikeFetch.Port*
+- uid: Bonsai.SpikeGLX.SpikeFetch.StreamType
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.StreamType
+  id: StreamType
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: StreamType
+  nameWithType: SpikeFetch.StreamType
+  fullName: Bonsai.SpikeGLX.SpikeFetch.StreamType
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: StreamType
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 47
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: 'Gets or sets the stream type (0: NIDAQ, 1: Onebox, 2: IMEC Probe).'
+  example: []
+  syntax:
+    content: public int StreamType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StreamType As Integer
+  overload: Bonsai.SpikeGLX.SpikeFetch.StreamType*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Substream
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Substream
+  id: Substream
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Substream
+  nameWithType: SpikeFetch.Substream
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Substream
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Substream
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 53
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the substream (0 for NIDAQ, probe number for IMEC Probe).
+  example: []
+  syntax:
+    content: public int Substream { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Substream As Integer
+  overload: Bonsai.SpikeGLX.SpikeFetch.Substream*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Channels
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Channels
+  id: Channels
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: SpikeFetch.Channels
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Channels
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Channels
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 59
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the array of channels to fetch data from.
+  example: []
+  syntax:
+    content: public int[] Channels { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Channels As Integer()
+  overload: Bonsai.SpikeGLX.SpikeFetch.Channels*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Downsample
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.Downsample
+  id: Downsample
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Downsample
+  nameWithType: SpikeFetch.Downsample
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Downsample
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Downsample
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 65
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Gets or sets the factor by which fetched data is downsampled.
+  example: []
+  syntax:
+    content: public int Downsample { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Downsample As Integer
+  overload: Bonsai.SpikeGLX.SpikeFetch.Downsample*
+- uid: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  id: ConvertToVoltage
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: ConvertToVoltage
+  nameWithType: SpikeFetch.ConvertToVoltage
+  fullName: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: ConvertToVoltage
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 72
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Gets or sets the flag to convert the fetched data from a unitless quantity
+
+    to a voltage, in volts.
+  example: []
+  syntax:
+    content: public bool ConvertToVoltage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ConvertToVoltage As Boolean
+  overload: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage*
+- uid: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  commentId: P:Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  id: HighResolutionTimer
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: HighResolutionTimer
+  nameWithType: SpikeFetch.HighResolutionTimer
+  fullName: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  type: Property
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: HighResolutionTimer
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 79
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: >-
+    Gets or sets the flag to use a high resolution timer (~1ms vs. ~15ms). Only relevant
+
+    if no external input is provided.
+  example: []
+  syntax:
+    content: public bool HighResolutionTimer { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HighResolutionTimer As Boolean
+  overload: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Generate
+  commentId: M:Bonsai.SpikeGLX.SpikeFetch.Generate
+  id: Generate
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Generate()
+  nameWithType: SpikeFetch.Generate()
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Generate()
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Generate
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 89
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Generates an observable sequence of buffers of data fetched from a SpikeGLX data stream.
+  example: []
+  syntax:
+    content: public override IObservable<Mat> Generate()
+    return:
+      type: System.IObservable{OpenCV.Net.Mat}
+      description: >-
+        A sequence of <xref href="OpenCV.Net.Mat" data-throw-if-not-resolved="false"></xref> objects representing buffers of fetched data from a
+
+        SpikeGLX data stream.
+    content.vb: Public Overrides Function Generate() As IObservable(Of Mat)
+  overridden: Bonsai.Source{OpenCV.Net.Mat}.Generate
+  overload: Bonsai.SpikeGLX.SpikeFetch.Generate*
+- uid: Bonsai.SpikeGLX.SpikeFetch.Generate``1(System.IObservable{``0})
+  commentId: M:Bonsai.SpikeGLX.SpikeFetch.Generate``1(System.IObservable{``0})
+  id: Generate``1(System.IObservable{``0})
+  parent: Bonsai.SpikeGLX.SpikeFetch
+  langs:
+  - csharp
+  - vb
+  name: Generate<TSource>(IObservable<TSource>)
+  nameWithType: SpikeFetch.Generate<TSource>(IObservable<TSource>)
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Generate<TSource>(System.IObservable<TSource>)
+  type: Method
+  source:
+    remote:
+      path: src/Bonsai.SpikeGLX/SpikeFetch.cs
+      branch: 5-add-documentation-with-docfx
+      repo: https://github.com/FeeLab/bonsai-spikeglx.git
+    id: Generate
+    path: ../src/Bonsai.SpikeGLX/SpikeFetch.cs
+    startLine: 130
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: Bonsai.SpikeGLX
+  summary: Generates an observable sequence of buffers of data fetched from a SpikeGLX data stream.
+  example: []
+  syntax:
+    content: public IObservable<Mat> Generate<TSource>(IObservable<TSource> source)
+    parameters:
+    - id: source
+      type: System.IObservable{{TSource}}
+      description: >-
+        Input sequence used to trigger fetching. A new buffer is fetched every time the input sequence
+
+        emits a notification.
+    typeParameters:
+    - id: TSource
+      description: ''
+    return:
+      type: System.IObservable{OpenCV.Net.Mat}
+      description: >-
+        A sequence of <xref href="OpenCV.Net.Mat" data-throw-if-not-resolved="false"></xref> objects representing buffers of fetched data from a
+
+        SpikeGLX data stream.
+    content.vb: Public Function Generate(Of TSource)(source As IObservable(Of TSource)) As IObservable(Of Mat)
+  overload: Bonsai.SpikeGLX.SpikeFetch.Generate*
+  nameWithType.vb: SpikeFetch.Generate(Of TSource)(IObservable(Of TSource))
+  fullName.vb: Bonsai.SpikeGLX.SpikeFetch.Generate(Of TSource)(System.IObservable(Of TSource))
+  name.vb: Generate(Of TSource)(IObservable(Of TSource))
+references:
+- uid: Bonsai.SpikeGLX
+  commentId: N:Bonsai.SpikeGLX
+  href: Bonsai.html
+  name: Bonsai.SpikeGLX
+  nameWithType: Bonsai.SpikeGLX
+  fullName: Bonsai.SpikeGLX
+  spec.csharp:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+  spec.vb:
+  - uid: Bonsai
+    name: Bonsai
+    href: Bonsai.html
+  - name: .
+  - uid: Bonsai.SpikeGLX
+    name: SpikeGLX
+    href: Bonsai.SpikeGLX.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Bonsai.Source{OpenCV.Net.Mat}
+  commentId: T:Bonsai.Source{OpenCV.Net.Mat}
+  parent: Bonsai
+  definition: Bonsai.Source`1
+  name: Source<Mat>
+  nameWithType: Source<Mat>
+  fullName: Bonsai.Source<OpenCV.Net.Mat>
+  nameWithType.vb: Source(Of Mat)
+  fullName.vb: Bonsai.Source(Of OpenCV.Net.Mat)
+  name.vb: Source(Of Mat)
+  spec.csharp:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: <
+  - uid: OpenCV.Net.Mat
+    name: Mat
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCV.Net.Mat
+    name: Mat
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Bonsai.Source`1
+  commentId: T:Bonsai.Source`1
+  isExternal: true
+  name: Source<TSource>
+  nameWithType: Source<TSource>
+  fullName: Bonsai.Source<TSource>
+  nameWithType.vb: Source(Of TSource)
+  fullName.vb: Bonsai.Source(Of TSource)
+  name.vb: Source(Of TSource)
+  spec.csharp:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: Bonsai.Source`1
+    name: Source
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: Bonsai
+  commentId: N:Bonsai
+  isExternal: true
+  name: Bonsai
+  nameWithType: Bonsai
+  fullName: Bonsai
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchLength*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.FetchLength
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_FetchLength
+  name: FetchLength
+  nameWithType: SpikeFetch.FetchLength
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_FetchPeriod
+  name: FetchPeriod
+  nameWithType: SpikeFetch.FetchPeriod
+  fullName: Bonsai.SpikeGLX.SpikeFetch.FetchPeriod
+- uid: Bonsai.SpikeGLX.SpikeFetch.Host*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Host
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Host
+  name: Host
+  nameWithType: SpikeFetch.Host
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Host
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Bonsai.SpikeGLX.SpikeFetch.Port*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Port
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Port
+  name: Port
+  nameWithType: SpikeFetch.Port
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Port
+- uid: Bonsai.SpikeGLX.SpikeFetch.StreamType*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.StreamType
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_StreamType
+  name: StreamType
+  nameWithType: SpikeFetch.StreamType
+  fullName: Bonsai.SpikeGLX.SpikeFetch.StreamType
+- uid: Bonsai.SpikeGLX.SpikeFetch.Substream*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Substream
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Substream
+  name: Substream
+  nameWithType: SpikeFetch.Substream
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Substream
+- uid: Bonsai.SpikeGLX.SpikeFetch.Channels*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Channels
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Channels
+  name: Channels
+  nameWithType: SpikeFetch.Channels
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Channels
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Bonsai.SpikeGLX.SpikeFetch.Downsample*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Downsample
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Downsample
+  name: Downsample
+  nameWithType: SpikeFetch.Downsample
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Downsample
+- uid: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_ConvertToVoltage
+  name: ConvertToVoltage
+  nameWithType: SpikeFetch.ConvertToVoltage
+  fullName: Bonsai.SpikeGLX.SpikeFetch.ConvertToVoltage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_HighResolutionTimer
+  name: HighResolutionTimer
+  nameWithType: SpikeFetch.HighResolutionTimer
+  fullName: Bonsai.SpikeGLX.SpikeFetch.HighResolutionTimer
+- uid: OpenCV.Net.Mat
+  commentId: T:OpenCV.Net.Mat
+  parent: OpenCV.Net
+  isExternal: true
+  name: Mat
+  nameWithType: Mat
+  fullName: OpenCV.Net.Mat
+- uid: Bonsai.Source{OpenCV.Net.Mat}.Generate
+  commentId: M:Bonsai.Source{OpenCV.Net.Mat}.Generate
+  parent: Bonsai.Source{OpenCV.Net.Mat}
+  definition: Bonsai.Source`1.Generate
+  name: Generate()
+  nameWithType: Source<Mat>.Generate()
+  fullName: Bonsai.Source<OpenCV.Net.Mat>.Generate()
+  nameWithType.vb: Source(Of Mat).Generate()
+  fullName.vb: Bonsai.Source(Of OpenCV.Net.Mat).Generate()
+  spec.csharp:
+  - uid: Bonsai.Source{OpenCV.Net.Mat}.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bonsai.Source{OpenCV.Net.Mat}.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Bonsai.SpikeGLX.SpikeFetch.Generate*
+  commentId: Overload:Bonsai.SpikeGLX.SpikeFetch.Generate
+  href: Bonsai.SpikeGLX.SpikeFetch.html#Bonsai_SpikeGLX_SpikeFetch_Generate
+  name: Generate
+  nameWithType: SpikeFetch.Generate
+  fullName: Bonsai.SpikeGLX.SpikeFetch.Generate
+- uid: System.IObservable{OpenCV.Net.Mat}
+  commentId: T:System.IObservable{OpenCV.Net.Mat}
+  parent: System
+  definition: System.IObservable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<Mat>
+  nameWithType: IObservable<Mat>
+  fullName: System.IObservable<OpenCV.Net.Mat>
+  nameWithType.vb: IObservable(Of Mat)
+  fullName.vb: System.IObservable(Of OpenCV.Net.Mat)
+  name.vb: IObservable(Of Mat)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - uid: OpenCV.Net.Mat
+    name: Mat
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCV.Net.Mat
+    name: Mat
+    isExternal: true
+  - name: )
+- uid: OpenCV.Net
+  commentId: N:OpenCV.Net
+  isExternal: true
+  name: OpenCV.Net
+  nameWithType: OpenCV.Net
+  fullName: OpenCV.Net
+  spec.csharp:
+  - uid: OpenCV
+    name: OpenCV
+    isExternal: true
+  - name: .
+  - uid: OpenCV.Net
+    name: Net
+    isExternal: true
+  spec.vb:
+  - uid: OpenCV
+    name: OpenCV
+    isExternal: true
+  - name: .
+  - uid: OpenCV.Net
+    name: Net
+    isExternal: true
+- uid: Bonsai.Source`1.Generate
+  commentId: M:Bonsai.Source`1.Generate
+  isExternal: true
+  name: Generate()
+  nameWithType: Source<TSource>.Generate()
+  fullName: Bonsai.Source<TSource>.Generate()
+  nameWithType.vb: Source(Of TSource).Generate()
+  fullName.vb: Bonsai.Source(Of TSource).Generate()
+  spec.csharp:
+  - uid: Bonsai.Source`1.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bonsai.Source`1.Generate
+    name: Generate
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.IObservable`1
+  commentId: T:System.IObservable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<T>
+  nameWithType: IObservable<T>
+  fullName: System.IObservable<T>
+  nameWithType.vb: IObservable(Of T)
+  fullName.vb: System.IObservable(Of T)
+  name.vb: IObservable(Of T)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IObservable{{TSource}}
+  commentId: T:System.IObservable{``0}
+  parent: System
+  definition: System.IObservable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  name: IObservable<TSource>
+  nameWithType: IObservable<TSource>
+  fullName: System.IObservable<TSource>
+  nameWithType.vb: IObservable(Of TSource)
+  fullName.vb: System.IObservable(Of TSource)
+  name.vb: IObservable(Of TSource)
+  spec.csharp:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: System.IObservable`1
+    name: IObservable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iobservable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )

@@ -1,0 +1,44 @@
+### YamlMime:TableOfContent
+items:
+- uid: Bonsai.SpikeGLX
+  name: Bonsai.SpikeGLX
+  type: Namespace
+  items:
+  - uid: Bonsai.SpikeGLX.DigitalOutput
+    name: DigitalOutput
+    type: Class
+  - uid: Bonsai.SpikeGLX.ImecChannelSelector
+    name: ImecChannelSelector
+    type: Class
+  - uid: Bonsai.SpikeGLX.NeuropixelsMuxGroups
+    name: NeuropixelsMuxGroups
+    type: Class
+  - uid: Bonsai.SpikeGLX.SpikeFetch
+    name: SpikeFetch
+    type: Class
+  - uid: Bonsai.SpikeGLX.SpikeGLX
+    name: SpikeGLX
+    type: Class
+  - uid: Bonsai.SpikeGLX.SpikeGLXDataStream
+    name: SpikeGLXDataStream
+    type: Class
+  - uid: Bonsai.SpikeGLX.SpikeGLXException
+    name: SpikeGLXException
+    type: Class
+  - uid: Bonsai.SpikeGLX.SpikeStream
+    name: SpikeStream
+    type: Class
+  - uid: Bonsai.SpikeGLX.TriggerRecording
+    name: TriggerRecording
+    type: Class
+- uid: C_Sglx_namespace
+  name: C_Sglx_namespace
+  type: Namespace
+  items:
+  - uid: C_Sglx_namespace.C_Sglx
+    name: C_Sglx
+    type: Class
+  - uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+    name: C_Sglx.ProgressCallback
+    type: Delegate
+memberLayout: SamePage

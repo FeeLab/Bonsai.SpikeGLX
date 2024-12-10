@@ -1,0 +1,2869 @@
+### YamlMime:ManagedReference
+items:
+- uid: C_Sglx_namespace.C_Sglx
+  commentId: T:C_Sglx_namespace.C_Sglx
+  id: C_Sglx
+  parent: C_Sglx_namespace
+  children:
+  - C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr,System.String,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  - C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(System.Int32@,System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(System.Int32@,System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(System.Int32@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getParams(System.Int32@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(System.Int32@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(System.Int32@,System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(System.Int32@,System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(System.Double@,System.IntPtr,System.Int32,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(System.Int32@,System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(System.Byte@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(System.Byte@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_isRunning(System.Byte@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_isSaving(System.Byte@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(System.Byte@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr,System.Int32,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.Char,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr,System.Int32,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr,System.Int32,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr,System.String,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr,System.String)
+  - C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.String)
+  - C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_fetch(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(System.String@,System.IntPtr,System.Int32)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(System.String@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(System.String@,System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(System.Int32@,System.String@,System.IntPtr,System.Int32,System.Int32)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  - C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: C_Sglx
+  nameWithType: C_Sglx
+  fullName: C_Sglx_namespace.C_Sglx
+  type: Class
+  source:
+    id: C_Sglx
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 22
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public class C_Sglx
+    content.vb: Public Class C_Sglx
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  id: cs_demoCallback(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_demoCallback(IntPtr)
+  nameWithType: C_Sglx.cs_demoCallback(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_demoCallback(System.IntPtr)
+  type: Method
+  source:
+    id: cs_demoCallback
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 28
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static void cs_demoCallback(IntPtr status)
+    parameters:
+    - id: status
+      type: System.IntPtr
+    content.vb: Public Shared Sub cs_demoCallback(status As IntPtr)
+  overload: C_Sglx_namespace.C_Sglx.cs_demoCallback*
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr,System.Int32)
+  id: cs_sglx_getstr(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getstr(IntPtr, int)
+  nameWithType: C_Sglx.cs_sglx_getstr(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr, int)
+  type: Method
+  source:
+    id: cs_sglx_getstr
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 38
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static string cs_sglx_getstr(IntPtr hSglx, int ith)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: ith
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function cs_sglx_getstr(hSglx As IntPtr, ith As Integer) As String
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getstr*
+  nameWithType.vb: C_Sglx.cs_sglx_getstr(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getstr(System.IntPtr, Integer)
+  name.vb: cs_sglx_getstr(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr,System.Int32)
+  id: c_sglx_getint(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getint(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_getint(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getint(IntPtr hSglx, int ith)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: ith
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getint(hSglx As IntPtr, ith As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getint*
+  nameWithType.vb: C_Sglx.c_sglx_getint(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getint(System.IntPtr, Integer)
+  name.vb: c_sglx_getint(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr,System.Int32)
+  id: c_sglx_getdbl(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getdbl(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_getdbl(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern double c_sglx_getdbl(IntPtr hSglx, int ith)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: ith
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function c_sglx_getdbl(hSglx As IntPtr, ith As Integer) As Double
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getdbl*
+  nameWithType.vb: C_Sglx.c_sglx_getdbl(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getdbl(System.IntPtr, Integer)
+  name.vb: c_sglx_getdbl(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr,System.String,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr,System.String,System.String)
+  id: c_sglx_setkv(System.IntPtr,System.String,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setkv(IntPtr, string, string)
+  nameWithType: C_Sglx.c_sglx_setkv(IntPtr, string, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr, string, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern void c_sglx_setkv(IntPtr hSglx, string key, string value)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub c_sglx_setkv(hSglx As IntPtr, key As String, value As String)
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setkv*
+  nameWithType.vb: C_Sglx.c_sglx_setkv(IntPtr, String, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setkv(System.IntPtr, String, String)
+  name.vb: c_sglx_setkv(IntPtr, String, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  id: c_sglx_createHandle
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_createHandle()
+  nameWithType: C_Sglx.c_sglx_createHandle()
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_createHandle()
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern IntPtr c_sglx_createHandle()
+    return:
+      type: System.IntPtr
+    content.vb: Public Shared Function c_sglx_createHandle() As IntPtr
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_createHandle*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  id: c_sglx_destroyHandle(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_destroyHandle(IntPtr)
+  nameWithType: C_Sglx.c_sglx_destroyHandle(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern void c_sglx_destroyHandle(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    content.vb: Public Shared Sub c_sglx_destroyHandle(hSglx As IntPtr)
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle*
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  id: cs_sglx_getError(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getError(IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getError(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getError(System.IntPtr)
+  type: Method
+  source:
+    id: cs_sglx_getError
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 85
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static string cs_sglx_getError(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.String
+    content.vb: Public Shared Function cs_sglx_getError(hSglx As IntPtr) As String
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getError*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr,System.String,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr,System.String,System.Int32)
+  id: c_sglx_connect(System.IntPtr,System.String,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_connect(IntPtr, string, int)
+  nameWithType: C_Sglx.c_sglx_connect(IntPtr, string, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr, string, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_connect(IntPtr hSglx, string host, int port)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: host
+      type: System.String
+    - id: port
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_connect(hSglx As IntPtr, host As String, port As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_connect*
+  nameWithType.vb: C_Sglx.c_sglx_connect(IntPtr, String, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_connect(System.IntPtr, String, Integer)
+  name.vb: c_sglx_connect(IntPtr, String, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  id: c_sglx_close(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_close(IntPtr)
+  nameWithType: C_Sglx.c_sglx_close(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_close(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_close(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_close(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_close*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  id: c_sglx_consoleHide(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_consoleHide(IntPtr)
+  nameWithType: C_Sglx.c_sglx_consoleHide(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_consoleHide(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_consoleHide(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  id: c_sglx_consoleShow(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_consoleShow(IntPtr)
+  nameWithType: C_Sglx.c_sglx_consoleShow(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_consoleShow(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_consoleShow(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(System.Int32@,System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(System.Int32@,System.IntPtr,System.Int32)
+  id: c_sglx_enumDataDir(System.Int32@,System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_enumDataDir(out int, IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_enumDataDir(out int, IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(out int, System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_enumDataDir(out int nval, IntPtr hSglx, int idir)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: idir
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_enumDataDir(nval As Integer, hSglx As IntPtr, idir As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir*
+  nameWithType.vb: C_Sglx.c_sglx_enumDataDir(Integer, IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir(Integer, System.IntPtr, Integer)
+  name.vb: c_sglx_enumDataDir(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetch(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_fetch(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  id: cs_sglx_fetch(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32[],System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_fetch(out short[], IntPtr, int, int, ulong, int, int[], int)
+  nameWithType: C_Sglx.cs_sglx_fetch(out short[], IntPtr, int, int, ulong, int, int[], int)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetch(out short[], System.IntPtr, int, int, ulong, int, int[], int)
+  type: Method
+  source:
+    id: cs_sglx_fetch
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 137
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static ulong cs_sglx_fetch(out short[] data, IntPtr hSglx, int js, int ip, ulong start_samp, int max_samps, int[] chan_subset, int downsamp)
+    parameters:
+    - id: data
+      type: System.Int16[]
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    - id: start_samp
+      type: System.UInt64
+    - id: max_samps
+      type: System.Int32
+    - id: chan_subset
+      type: System.Int32[]
+    - id: downsamp
+      type: System.Int32
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Function cs_sglx_fetch(data As Short(), hSglx As IntPtr, js As Integer, ip As Integer, start_samp As ULong, max_samps As Integer, chan_subset As Integer(), downsamp As Integer) As ULong
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_fetch*
+  nameWithType.vb: C_Sglx.cs_sglx_fetch(Short(), IntPtr, Integer, Integer, ULong, Integer, Integer(), Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_fetch(Short(), System.IntPtr, Integer, Integer, ULong, Integer, Integer(), Integer)
+  name.vb: cs_sglx_fetch(Short(), IntPtr, Integer, Integer, ULong, Integer, Integer(), Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  id: cs_sglx_fetchLatest(System.Int16[]@,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_fetchLatest(out short[], IntPtr, int, int, int, int[], int)
+  nameWithType: C_Sglx.cs_sglx_fetchLatest(out short[], IntPtr, int, int, int, int[], int)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(out short[], System.IntPtr, int, int, int, int[], int)
+  type: Method
+  source:
+    id: cs_sglx_fetchLatest
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 166
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static ulong cs_sglx_fetchLatest(out short[] data, IntPtr hSglx, int js, int ip, int max_samps, int[] chan_subset, int downsamp)
+    parameters:
+    - id: data
+      type: System.Int16[]
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    - id: max_samps
+      type: System.Int32
+    - id: chan_subset
+      type: System.Int32[]
+    - id: downsamp
+      type: System.Int32
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Function cs_sglx_fetchLatest(data As Short(), hSglx As IntPtr, js As Integer, ip As Integer, max_samps As Integer, chan_subset As Integer(), downsamp As Integer) As ULong
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest*
+  nameWithType.vb: C_Sglx.cs_sglx_fetchLatest(Short(), IntPtr, Integer, Integer, Integer, Integer(), Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest(Short(), System.IntPtr, Integer, Integer, Integer, Integer(), Integer)
+  name.vb: cs_sglx_fetchLatest(Short(), IntPtr, Integer, Integer, Integer, Integer(), Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(System.String@,System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(System.String@,System.IntPtr,System.Int32)
+  id: cs_sglx_getDataDir(System.String@,System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getDataDir(out string, IntPtr, int)
+  nameWithType: C_Sglx.cs_sglx_getDataDir(out string, IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(out string, System.IntPtr, int)
+  type: Method
+  source:
+    id: cs_sglx_getDataDir
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 183
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static int cs_sglx_getDataDir(out string dir, IntPtr hSglx, int idir = 0)
+    parameters:
+    - id: dir
+      type: System.String
+    - id: hSglx
+      type: System.IntPtr
+    - id: idir
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function cs_sglx_getDataDir(dir As String, hSglx As IntPtr, idir As Integer = 0) As Integer
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir*
+  nameWithType.vb: C_Sglx.cs_sglx_getDataDir(String, IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir(String, System.IntPtr, Integer)
+  name.vb: cs_sglx_getDataDir(String, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(System.Int32@,System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(System.Int32@,System.IntPtr,System.Int32)
+  id: c_sglx_getGeomMap(System.Int32@,System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getGeomMap(out int, IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_getGeomMap(out int, IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(out int, System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getGeomMap(out int nval, IntPtr hSglx, int ip)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getGeomMap(nval As Integer, hSglx As IntPtr, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap*
+  nameWithType.vb: C_Sglx.c_sglx_getGeomMap(Integer, IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap(Integer, System.IntPtr, Integer)
+  name.vb: c_sglx_getGeomMap(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getImecChanGains(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getImecChanGains(out double, out double, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getImecChanGains(out double, out double, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(out double, out double, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getImecChanGains(out double APgain, out double LFgain, IntPtr hSglx, int ip, int chan)
+    parameters:
+    - id: APgain
+      type: System.Double
+    - id: LFgain
+      type: System.Double
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    - id: chan
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getImecChanGains(APgain As Double, LFgain As Double, hSglx As IntPtr, ip As Integer, chan As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains*
+  nameWithType.vb: C_Sglx.c_sglx_getImecChanGains(Double, Double, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains(Double, Double, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getImecChanGains(Double, Double, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(System.Int32@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(System.Int32@,System.IntPtr)
+  id: c_sglx_getNIShankMap(System.Int32@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getNIShankMap(out int, IntPtr)
+  nameWithType: C_Sglx.c_sglx_getNIShankMap(out int, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(out int, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getNIShankMap(out int nval, IntPtr hSglx)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getNIShankMap(nval As Integer, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap*
+  nameWithType.vb: C_Sglx.c_sglx_getNIShankMap(Integer, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap(Integer, System.IntPtr)
+  name.vb: c_sglx_getNIShankMap(Integer, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParams(System.Int32@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParams(System.Int32@,System.IntPtr)
+  id: c_sglx_getParams(System.Int32@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getParams(out int, IntPtr)
+  nameWithType: C_Sglx.c_sglx_getParams(out int, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParams(out int, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getParams(out int nval, IntPtr hSglx)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getParams(nval As Integer, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getParams*
+  nameWithType.vb: C_Sglx.c_sglx_getParams(Integer, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParams(Integer, System.IntPtr)
+  name.vb: c_sglx_getParams(Integer, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(System.Int32@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(System.Int32@,System.IntPtr)
+  id: c_sglx_getParamsImecCommon(System.Int32@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getParamsImecCommon(out int, IntPtr)
+  nameWithType: C_Sglx.c_sglx_getParamsImecCommon(out int, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(out int, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getParamsImecCommon(out int nval, IntPtr hSglx)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getParamsImecCommon(nval As Integer, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon*
+  nameWithType.vb: C_Sglx.c_sglx_getParamsImecCommon(Integer, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon(Integer, System.IntPtr)
+  name.vb: c_sglx_getParamsImecCommon(Integer, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(System.Int32@,System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(System.Int32@,System.IntPtr,System.Int32)
+  id: c_sglx_getParamsImecProbe(System.Int32@,System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getParamsImecProbe(out int, IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_getParamsImecProbe(out int, IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(out int, System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getParamsImecProbe(out int nval, IntPtr hSglx, int ip)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getParamsImecProbe(nval As Integer, hSglx As IntPtr, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe*
+  nameWithType.vb: C_Sglx.c_sglx_getParamsImecProbe(Integer, IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe(Integer, System.IntPtr, Integer)
+  name.vb: c_sglx_getParamsImecProbe(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(System.Int32@,System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(System.Int32@,System.IntPtr,System.Int32)
+  id: c_sglx_getParamsOneBox(System.Int32@,System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getParamsOneBox(out int, IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_getParamsOneBox(out int, IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(out int, System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getParamsOneBox(out int nval, IntPtr hSglx, int ip)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getParamsOneBox(nval As Integer, hSglx As IntPtr, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox*
+  nameWithType.vb: C_Sglx.c_sglx_getParamsOneBox(Integer, IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox(Integer, System.IntPtr, Integer)
+  name.vb: c_sglx_getParamsOneBox(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(System.String@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(System.String@,System.IntPtr)
+  id: cs_sglx_getProbeList(System.String@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getProbeList(out string, IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getProbeList(out string, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(out string, System.IntPtr)
+  type: Method
+  source:
+    id: cs_sglx_getProbeList
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 266
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static int cs_sglx_getProbeList(out string list, IntPtr hSglx)
+    parameters:
+    - id: list
+      type: System.String
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function cs_sglx_getProbeList(list As String, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList*
+  nameWithType.vb: C_Sglx.cs_sglx_getProbeList(String, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList(String, System.IntPtr)
+  name.vb: cs_sglx_getProbeList(String, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(System.String@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(System.String@,System.IntPtr)
+  id: cs_sglx_getRunName(System.String@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getRunName(out string, IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getRunName(out string, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(out string, System.IntPtr)
+  type: Method
+  source:
+    id: cs_sglx_getRunName
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 278
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static int cs_sglx_getRunName(out string name, IntPtr hSglx)
+    parameters:
+    - id: name
+      type: System.String
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function cs_sglx_getRunName(name As String, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName*
+  nameWithType.vb: C_Sglx.cs_sglx_getRunName(String, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName(String, System.IntPtr)
+  name.vb: cs_sglx_getRunName(String, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamAcqChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamAcqChans(out int, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamAcqChans(out int, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(out int, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getStreamAcqChans(out int nval, IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getStreamAcqChans(nval As Integer, hSglx As IntPtr, js As Integer, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamAcqChans(Integer, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans(Integer, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamAcqChans(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamFileStart(System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamFileStart(IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamFileStart(IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern ulong c_sglx_getStreamFileStart(IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Function c_sglx_getStreamFileStart(hSglx As IntPtr, js As Integer, ip As Integer) As ULong
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamFileStart(IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart(System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamFileStart(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(System.Double@,System.IntPtr,System.Int32,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(System.Double@,System.IntPtr,System.Int32,System.Int32,System.Int32)
+  id: c_sglx_getStreamI16ToVolts(System.Double@,System.IntPtr,System.Int32,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamI16ToVolts(out double, IntPtr, int, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamI16ToVolts(out double, IntPtr, int, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(out double, System.IntPtr, int, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getStreamI16ToVolts(out double mult, IntPtr hSglx, int js, int ip, int chan)
+    parameters:
+    - id: mult
+      type: System.Double
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    - id: chan
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getStreamI16ToVolts(mult As Double, hSglx As IntPtr, js As Integer, ip As Integer, chan As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamI16ToVolts(Double, IntPtr, Integer, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts(Double, System.IntPtr, Integer, Integer, Integer)
+  name.vb: c_sglx_getStreamI16ToVolts(Double, IntPtr, Integer, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamMaxInt(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamMaxInt(out int, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamMaxInt(out int, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(out int, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getStreamMaxInt(out int maxInt, IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: maxInt
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getStreamMaxInt(maxInt As Integer, hSglx As IntPtr, js As Integer, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamMaxInt(Integer, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt(Integer, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamMaxInt(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(System.Int32@,System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(System.Int32@,System.IntPtr,System.Int32)
+  id: c_sglx_getStreamNP(System.Int32@,System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamNP(out int, IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_getStreamNP(out int, IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(out int, System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getStreamNP(out int np, IntPtr hSglx, int js)
+    parameters:
+    - id: np
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getStreamNP(np As Integer, hSglx As IntPtr, js As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamNP(Integer, IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP(Integer, System.IntPtr, Integer)
+  name.vb: c_sglx_getStreamNP(Integer, IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamSampleCount(System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamSampleCount(IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamSampleCount(IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern ulong c_sglx_getStreamSampleCount(IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Function c_sglx_getStreamSampleCount(hSglx As IntPtr, js As Integer, ip As Integer) As ULong
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamSampleCount(IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount(System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamSampleCount(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamSampleRate(System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamSampleRate(IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamSampleRate(IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern double c_sglx_getStreamSampleRate(IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function c_sglx_getStreamSampleRate(hSglx As IntPtr, js As Integer, ip As Integer) As Double
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamSampleRate(IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate(System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamSampleRate(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamSaveChans(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamSaveChans(out int, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamSaveChans(out int, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(out int, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getStreamSaveChans(out int nval, IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getStreamSaveChans(nval As Integer, hSglx As IntPtr, js As Integer, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamSaveChans(Integer, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans(Integer, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamSaveChans(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(System.Int32@,System.String@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(System.Int32@,System.String@,System.IntPtr,System.Int32,System.Int32)
+  id: cs_sglx_getStreamSN(System.Int32@,System.String@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getStreamSN(out int, out string, IntPtr, int, int)
+  nameWithType: C_Sglx.cs_sglx_getStreamSN(out int, out string, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(out int, out string, System.IntPtr, int, int)
+  type: Method
+  source:
+    id: cs_sglx_getStreamSN
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 343
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static int cs_sglx_getStreamSN(out int slot_or_type, out string SN, IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: slot_or_type
+      type: System.Int32
+    - id: SN
+      type: System.String
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function cs_sglx_getStreamSN(slot_or_type As Integer, SN As String, hSglx As IntPtr, js As Integer, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN*
+  nameWithType.vb: C_Sglx.cs_sglx_getStreamSN(Integer, String, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN(Integer, String, System.IntPtr, Integer, Integer)
+  name.vb: cs_sglx_getStreamSN(Integer, String, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_getStreamVoltageRange(System.Double@,System.Double@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getStreamVoltageRange(out double, out double, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_getStreamVoltageRange(out double, out double, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(out double, out double, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_getStreamVoltageRange(out double vMin, out double vMax, IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: vMin
+      type: System.Double
+    - id: vMax
+      type: System.Double
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_getStreamVoltageRange(vMin As Double, vMax As Double, hSglx As IntPtr, js As Integer, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange*
+  nameWithType.vb: C_Sglx.c_sglx_getStreamVoltageRange(Double, Double, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange(Double, Double, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_getStreamVoltageRange(Double, Double, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  id: c_sglx_getTime(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_getTime(IntPtr)
+  nameWithType: C_Sglx.c_sglx_getTime(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getTime(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern double c_sglx_getTime(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Double
+    content.vb: Public Shared Function c_sglx_getTime(hSglx As IntPtr) As Double
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_getTime*
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  id: cs_sglx_getVersion(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: cs_sglx_getVersion(IntPtr)
+  nameWithType: C_Sglx.cs_sglx_getVersion(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion(System.IntPtr)
+  type: Method
+  source:
+    id: cs_sglx_getVersion
+    path: C:\Users\oobad\OneDrive\Documents\repos\bonsai-spikeglx\modules\SpikeGLX-CPP-SDK\C#\C_Sglx.cs
+    startLine: 366
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static string cs_sglx_getVersion(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.String
+    content.vb: Public Shared Function cs_sglx_getVersion(hSglx As IntPtr) As String
+  overload: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(System.Byte@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(System.Byte@,System.IntPtr)
+  id: c_sglx_isConsoleHidden(System.Byte@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_isConsoleHidden(out byte, IntPtr)
+  nameWithType: C_Sglx.c_sglx_isConsoleHidden(out byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(out byte, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_isConsoleHidden(out byte hidden, IntPtr hSglx)
+    parameters:
+    - id: hidden
+      type: System.Byte
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_isConsoleHidden(hidden As Byte, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden*
+  nameWithType.vb: C_Sglx.c_sglx_isConsoleHidden(Byte, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden(Byte, System.IntPtr)
+  name.vb: c_sglx_isConsoleHidden(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(System.Byte@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(System.Byte@,System.IntPtr)
+  id: c_sglx_isInitialized(System.Byte@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_isInitialized(out byte, IntPtr)
+  nameWithType: C_Sglx.c_sglx_isInitialized(out byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(out byte, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_isInitialized(out byte ready, IntPtr hSglx)
+    parameters:
+    - id: ready
+      type: System.Byte
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_isInitialized(ready As Byte, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized*
+  nameWithType.vb: C_Sglx.c_sglx_isInitialized(Byte, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized(Byte, System.IntPtr)
+  name.vb: c_sglx_isInitialized(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isRunning(System.Byte@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isRunning(System.Byte@,System.IntPtr)
+  id: c_sglx_isRunning(System.Byte@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_isRunning(out byte, IntPtr)
+  nameWithType: C_Sglx.c_sglx_isRunning(out byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isRunning(out byte, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_isRunning(out byte running, IntPtr hSglx)
+    parameters:
+    - id: running
+      type: System.Byte
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_isRunning(running As Byte, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_isRunning*
+  nameWithType.vb: C_Sglx.c_sglx_isRunning(Byte, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isRunning(Byte, System.IntPtr)
+  name.vb: c_sglx_isRunning(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isSaving(System.Byte@,System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isSaving(System.Byte@,System.IntPtr)
+  id: c_sglx_isSaving(System.Byte@,System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_isSaving(out byte, IntPtr)
+  nameWithType: C_Sglx.c_sglx_isSaving(out byte, IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isSaving(out byte, System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_isSaving(out byte saving, IntPtr hSglx)
+    parameters:
+    - id: saving
+      type: System.Byte
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_isSaving(saving As Byte, hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_isSaving*
+  nameWithType.vb: C_Sglx.c_sglx_isSaving(Byte, IntPtr)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isSaving(Byte, System.IntPtr)
+  name.vb: c_sglx_isSaving(Byte, IntPtr)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(System.Byte@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(System.Byte@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_isUserOrder(System.Byte@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_isUserOrder(out byte, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_isUserOrder(out byte, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(out byte, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_isUserOrder(out byte userOrder, IntPtr hSglx, int js, int ip)
+    parameters:
+    - id: userOrder
+      type: System.Byte
+    - id: hSglx
+      type: System.IntPtr
+    - id: js
+      type: System.Int32
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_isUserOrder(userOrder As Byte, hSglx As IntPtr, js As Integer, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder*
+  nameWithType.vb: C_Sglx.c_sglx_isUserOrder(Byte, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder(Byte, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_isUserOrder(Byte, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32)
+  id: c_sglx_mapSample(System.IntPtr,System.Int32,System.Int32,System.UInt64,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_mapSample(IntPtr, int, int, ulong, int, int)
+  nameWithType: C_Sglx.c_sglx_mapSample(IntPtr, int, int, ulong, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr, int, int, ulong, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern ulong c_sglx_mapSample(IntPtr hSglx, int dstjs, int dstip, ulong srcSample, int srcjs, int srcip)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: dstjs
+      type: System.Int32
+    - id: dstip
+      type: System.Int32
+    - id: srcSample
+      type: System.UInt64
+    - id: srcjs
+      type: System.Int32
+    - id: srcip
+      type: System.Int32
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Function c_sglx_mapSample(hSglx As IntPtr, dstjs As Integer, dstip As Integer, srcSample As ULong, srcjs As Integer, srcip As Integer) As ULong
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_mapSample*
+  nameWithType.vb: C_Sglx.c_sglx_mapSample(IntPtr, Integer, Integer, ULong, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_mapSample(System.IntPtr, Integer, Integer, ULong, Integer, Integer)
+  name.vb: c_sglx_mapSample(IntPtr, Integer, Integer, ULong, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr,System.Int32,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr,System.Int32,System.Int32,System.Int32)
+  id: c_sglx_opto_emit(System.IntPtr,System.Int32,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_opto_emit(IntPtr, int, int, int)
+  nameWithType: C_Sglx.c_sglx_opto_emit(IntPtr, int, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr, int, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_opto_emit(IntPtr hSglx, int ip, int color, int site)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    - id: color
+      type: System.Int32
+    - id: site
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_opto_emit(hSglx As IntPtr, ip As Integer, color As Integer, site As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit*
+  nameWithType.vb: C_Sglx.c_sglx_opto_emit(IntPtr, Integer, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit(System.IntPtr, Integer, Integer, Integer)
+  name.vb: c_sglx_opto_emit(IntPtr, Integer, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_opto_getAttenuations(System.Int32@,System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_opto_getAttenuations(out int, IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_opto_getAttenuations(out int, IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(out int, System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_opto_getAttenuations(out int nval, IntPtr hSglx, int ip, int color)
+    parameters:
+    - id: nval
+      type: System.Int32
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    - id: color
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_opto_getAttenuations(nval As Integer, hSglx As IntPtr, ip As Integer, color As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations*
+  nameWithType.vb: C_Sglx.c_sglx_opto_getAttenuations(Integer, IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations(Integer, System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_opto_getAttenuations(Integer, IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.Char,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.Char,System.String)
+  id: c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.Char,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_par2(ProgressCallback, IntPtr, char, string)
+  nameWithType: C_Sglx.c_sglx_par2(C_Sglx.ProgressCallback, IntPtr, char, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, char, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_par2(C_Sglx.ProgressCallback callback, IntPtr hSglx, char op, string file)
+    parameters:
+    - id: callback
+      type: C_Sglx_namespace.C_Sglx.ProgressCallback
+    - id: hSglx
+      type: System.IntPtr
+    - id: op
+      type: System.Char
+    - id: file
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_par2(callback As C_Sglx.ProgressCallback, hSglx As IntPtr, op As Char, file As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_par2*
+  nameWithType.vb: C_Sglx.c_sglx_par2(C_Sglx.ProgressCallback, IntPtr, Char, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_par2(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, Char, String)
+  name.vb: c_sglx_par2(ProgressCallback, IntPtr, Char, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr,System.String)
+  id: c_sglx_setAnatomy_Pinpoint(System.IntPtr,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setAnatomy_Pinpoint(IntPtr, string)
+  nameWithType: C_Sglx.c_sglx_setAnatomy_Pinpoint(IntPtr, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setAnatomy_Pinpoint(IntPtr hSglx, string shankdat)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: shankdat
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setAnatomy_Pinpoint(hSglx As IntPtr, shankdat As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint*
+  nameWithType.vb: C_Sglx.c_sglx_setAnatomy_Pinpoint(IntPtr, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint(System.IntPtr, String)
+  name.vb: c_sglx_setAnatomy_Pinpoint(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr,System.Int32)
+  id: c_sglx_setAudioEnable(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setAudioEnable(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_setAudioEnable(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setAudioEnable(IntPtr hSglx, int enable)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: enable
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setAudioEnable(hSglx As IntPtr, enable As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable*
+  nameWithType.vb: C_Sglx.c_sglx_setAudioEnable(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable(System.IntPtr, Integer)
+  name.vb: c_sglx_setAudioEnable(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr,System.String)
+  id: c_sglx_setAudioKVParams(System.IntPtr,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setAudioKVParams(IntPtr, string)
+  nameWithType: C_Sglx.c_sglx_setAudioKVParams(IntPtr, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setAudioKVParams(IntPtr hSglx, string group)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: group
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setAudioKVParams(hSglx As IntPtr, group As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams*
+  nameWithType.vb: C_Sglx.c_sglx_setAudioKVParams(IntPtr, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams(System.IntPtr, String)
+  name.vb: c_sglx_setAudioKVParams(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr,System.Int32,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr,System.Int32,System.String)
+  id: c_sglx_setDataDir(System.IntPtr,System.Int32,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setDataDir(IntPtr, int, string)
+  nameWithType: C_Sglx.c_sglx_setDataDir(IntPtr, int, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr, int, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setDataDir(IntPtr hSglx, int idir, string dir)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: idir
+      type: System.Int32
+    - id: dir
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setDataDir(hSglx As IntPtr, idir As Integer, dir As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir*
+  nameWithType.vb: C_Sglx.c_sglx_setDataDir(IntPtr, Integer, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir(System.IntPtr, Integer, String)
+  name.vb: c_sglx_setDataDir(IntPtr, Integer, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr,System.Int32,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr,System.Int32,System.String)
+  id: c_sglx_setDigitalOut(System.IntPtr,System.Int32,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setDigitalOut(IntPtr, int, string)
+  nameWithType: C_Sglx.c_sglx_setDigitalOut(IntPtr, int, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr, int, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setDigitalOut(IntPtr hSglx, int hi_lo, string channels)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: hi_lo
+      type: System.Int32
+    - id: channels
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setDigitalOut(hSglx As IntPtr, hi_lo As Integer, channels As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut*
+  nameWithType.vb: C_Sglx.c_sglx_setDigitalOut(IntPtr, Integer, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut(System.IntPtr, Integer, String)
+  name.vb: c_sglx_setDigitalOut(IntPtr, Integer, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  id: c_sglx_setKVMetadata(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setKVMetadata(IntPtr)
+  nameWithType: C_Sglx.c_sglx_setKVMetadata(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setKVMetadata(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setKVMetadata(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  id: c_sglx_setKVParams(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setKVParams(IntPtr)
+  nameWithType: C_Sglx.c_sglx_setKVParams(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setKVParams(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setKVParams(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  id: c_sglx_setKVParamsImecCommon(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setKVParamsImecCommon(IntPtr)
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecCommon(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setKVParamsImecCommon(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setKVParamsImecCommon(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr,System.Int32)
+  id: c_sglx_setKVParamsImecProbe(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setKVParamsImecProbe(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecProbe(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setKVParamsImecProbe(IntPtr hSglx, int ip)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setKVParamsImecProbe(hSglx As IntPtr, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe*
+  nameWithType.vb: C_Sglx.c_sglx_setKVParamsImecProbe(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe(System.IntPtr, Integer)
+  name.vb: c_sglx_setKVParamsImecProbe(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr,System.Int32)
+  id: c_sglx_setKVParamsOneBox(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setKVParamsOneBox(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_setKVParamsOneBox(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setKVParamsOneBox(IntPtr hSglx, int ip)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: ip
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setKVParamsOneBox(hSglx As IntPtr, ip As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox*
+  nameWithType.vb: C_Sglx.c_sglx_setKVParamsOneBox(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox(System.IntPtr, Integer)
+  name.vb: c_sglx_setKVParamsOneBox(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr,System.Int32)
+  id: c_sglx_setMultiDriveEnable(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setMultiDriveEnable(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_setMultiDriveEnable(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setMultiDriveEnable(IntPtr hSglx, int enable)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: enable
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setMultiDriveEnable(hSglx As IntPtr, enable As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable*
+  nameWithType.vb: C_Sglx.c_sglx_setMultiDriveEnable(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable(System.IntPtr, Integer)
+  name.vb: c_sglx_setMultiDriveEnable(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr,System.String)
+  id: c_sglx_setNextFileName(System.IntPtr,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setNextFileName(IntPtr, string)
+  nameWithType: C_Sglx.c_sglx_setNextFileName(IntPtr, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setNextFileName(IntPtr hSglx, string name)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setNextFileName(hSglx As IntPtr, name As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName*
+  nameWithType.vb: C_Sglx.c_sglx_setNextFileName(IntPtr, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName(System.IntPtr, String)
+  name.vb: c_sglx_setNextFileName(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr,System.Int32)
+  id: c_sglx_setRecordingEnable(System.IntPtr,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setRecordingEnable(IntPtr, int)
+  nameWithType: C_Sglx.c_sglx_setRecordingEnable(IntPtr, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setRecordingEnable(IntPtr hSglx, int enable)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: enable
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setRecordingEnable(hSglx As IntPtr, enable As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable*
+  nameWithType.vb: C_Sglx.c_sglx_setRecordingEnable(IntPtr, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable(System.IntPtr, Integer)
+  name.vb: c_sglx_setRecordingEnable(IntPtr, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr,System.String)
+  id: c_sglx_setRunName(System.IntPtr,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setRunName(IntPtr, string)
+  nameWithType: C_Sglx.c_sglx_setRunName(IntPtr, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setRunName(IntPtr hSglx, string name)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setRunName(hSglx As IntPtr, name As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setRunName*
+  nameWithType.vb: C_Sglx.c_sglx_setRunName(IntPtr, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setRunName(System.IntPtr, String)
+  name.vb: c_sglx_setRunName(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_setTriggerOffBeep(System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setTriggerOffBeep(IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_setTriggerOffBeep(IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setTriggerOffBeep(IntPtr hSglx, int hertz, int millisec)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: hertz
+      type: System.Int32
+    - id: millisec
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setTriggerOffBeep(hSglx As IntPtr, hertz As Integer, millisec As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep*
+  nameWithType.vb: C_Sglx.c_sglx_setTriggerOffBeep(IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep(System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_setTriggerOffBeep(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_setTriggerOnBeep(System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_setTriggerOnBeep(IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_setTriggerOnBeep(IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_setTriggerOnBeep(IntPtr hSglx, int hertz, int millisec)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: hertz
+      type: System.Int32
+    - id: millisec
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_setTriggerOnBeep(hSglx As IntPtr, hertz As Integer, millisec As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep*
+  nameWithType.vb: C_Sglx.c_sglx_setTriggerOnBeep(IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep(System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_setTriggerOnBeep(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr,System.String)
+  id: c_sglx_startRun(System.IntPtr,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_startRun(IntPtr, string)
+  nameWithType: C_Sglx.c_sglx_startRun(IntPtr, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_startRun(IntPtr hSglx, string name = "")
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_startRun(hSglx As IntPtr, name As String = "") As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_startRun*
+  nameWithType.vb: C_Sglx.c_sglx_startRun(IntPtr, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_startRun(System.IntPtr, String)
+  name.vb: c_sglx_startRun(IntPtr, String)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  id: c_sglx_stopRun(System.IntPtr)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_stopRun(IntPtr)
+  nameWithType: C_Sglx.c_sglx_stopRun(IntPtr)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_stopRun(System.IntPtr)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_stopRun(IntPtr hSglx)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_stopRun(hSglx As IntPtr) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_stopRun*
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr,System.Int32,System.Int32)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr,System.Int32,System.Int32)
+  id: c_sglx_triggerGT(System.IntPtr,System.Int32,System.Int32)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_triggerGT(IntPtr, int, int)
+  nameWithType: C_Sglx.c_sglx_triggerGT(IntPtr, int, int)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr, int, int)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_triggerGT(IntPtr hSglx, int g, int t)
+    parameters:
+    - id: hSglx
+      type: System.IntPtr
+    - id: g
+      type: System.Int32
+    - id: t
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_triggerGT(hSglx As IntPtr, g As Integer, t As Integer) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT*
+  nameWithType.vb: C_Sglx.c_sglx_triggerGT(IntPtr, Integer, Integer)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT(System.IntPtr, Integer, Integer)
+  name.vb: c_sglx_triggerGT(IntPtr, Integer, Integer)
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.String)
+  commentId: M:C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.String)
+  id: c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback,System.IntPtr,System.String)
+  parent: C_Sglx_namespace.C_Sglx
+  langs:
+  - csharp
+  - vb
+  name: c_sglx_verifySha1(ProgressCallback, IntPtr, string)
+  nameWithType: C_Sglx.c_sglx_verifySha1(C_Sglx.ProgressCallback, IntPtr, string)
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, string)
+  type: Method
+  assemblies:
+  - Bonsai.SpikeGLX
+  namespace: C_Sglx_namespace
+  syntax:
+    content: public static extern int c_sglx_verifySha1(C_Sglx.ProgressCallback callback, IntPtr hSglx, string filename)
+    parameters:
+    - id: callback
+      type: C_Sglx_namespace.C_Sglx.ProgressCallback
+    - id: hSglx
+      type: System.IntPtr
+    - id: filename
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function c_sglx_verifySha1(callback As C_Sglx.ProgressCallback, hSglx As IntPtr, filename As String) As Integer
+  overload: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1*
+  nameWithType.vb: C_Sglx.c_sglx_verifySha1(C_Sglx.ProgressCallback, IntPtr, String)
+  fullName.vb: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1(C_Sglx_namespace.C_Sglx.ProgressCallback, System.IntPtr, String)
+  name.vb: c_sglx_verifySha1(ProgressCallback, IntPtr, String)
+references:
+- uid: C_Sglx_namespace
+  commentId: N:C_Sglx_namespace
+  href: C_Sglx_namespace.html
+  name: C_Sglx_namespace
+  nameWithType: C_Sglx_namespace
+  fullName: C_Sglx_namespace
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: C_Sglx_namespace.C_Sglx.cs_demoCallback*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_demoCallback
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_demoCallback_System_IntPtr_
+  name: cs_demoCallback
+  nameWithType: C_Sglx.cs_demoCallback
+  fullName: C_Sglx_namespace.C_Sglx.cs_demoCallback
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getstr*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getstr
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getstr_System_IntPtr_System_Int32_
+  name: cs_sglx_getstr
+  nameWithType: C_Sglx.cs_sglx_getstr
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getstr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getint*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getint
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getint_System_IntPtr_System_Int32_
+  name: c_sglx_getint
+  nameWithType: C_Sglx.c_sglx_getint
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getint
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getdbl*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getdbl
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getdbl_System_IntPtr_System_Int32_
+  name: c_sglx_getdbl
+  nameWithType: C_Sglx.c_sglx_getdbl
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getdbl
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setkv*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setkv
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setkv_System_IntPtr_System_String_System_String_
+  name: c_sglx_setkv
+  nameWithType: C_Sglx.c_sglx_setkv
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setkv
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_createHandle*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_createHandle
+  name: c_sglx_createHandle
+  nameWithType: C_Sglx.c_sglx_createHandle
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_createHandle
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_destroyHandle_System_IntPtr_
+  name: c_sglx_destroyHandle
+  nameWithType: C_Sglx.c_sglx_destroyHandle
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_destroyHandle
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getError*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getError
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getError_System_IntPtr_
+  name: cs_sglx_getError
+  nameWithType: C_Sglx.cs_sglx_getError
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getError
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_connect*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_connect
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_connect_System_IntPtr_System_String_System_Int32_
+  name: c_sglx_connect
+  nameWithType: C_Sglx.c_sglx_connect
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_connect
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_close*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_close
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_close_System_IntPtr_
+  name: c_sglx_close
+  nameWithType: C_Sglx.c_sglx_close
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_close
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_consoleHide
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_consoleHide_System_IntPtr_
+  name: c_sglx_consoleHide
+  nameWithType: C_Sglx.c_sglx_consoleHide
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleHide
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_consoleShow
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_consoleShow_System_IntPtr_
+  name: c_sglx_consoleShow
+  nameWithType: C_Sglx.c_sglx_consoleShow
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_consoleShow
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_enumDataDir_System_Int32__System_IntPtr_System_Int32_
+  name: c_sglx_enumDataDir
+  nameWithType: C_Sglx.c_sglx_enumDataDir
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_enumDataDir
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetch*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_fetch
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_fetch_System_Int16____System_IntPtr_System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32___System_Int32_
+  name: cs_sglx_fetch
+  nameWithType: C_Sglx.cs_sglx_fetch
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetch
+- uid: System.Int16[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short[]
+  nameWithType: short[]
+  fullName: short[]
+  nameWithType.vb: Short()
+  fullName.vb: Short()
+  name.vb: Short()
+  spec.csharp:
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: (
+  - name: )
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_fetchLatest_System_Int16____System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32___System_Int32_
+  name: cs_sglx_fetchLatest
+  nameWithType: C_Sglx.cs_sglx_fetchLatest
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_fetchLatest
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getDataDir_System_String__System_IntPtr_System_Int32_
+  name: cs_sglx_getDataDir
+  nameWithType: C_Sglx.cs_sglx_getDataDir
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getDataDir
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getGeomMap_System_Int32__System_IntPtr_System_Int32_
+  name: c_sglx_getGeomMap
+  nameWithType: C_Sglx.c_sglx_getGeomMap
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getGeomMap
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getImecChanGains_System_Double__System_Double__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getImecChanGains
+  nameWithType: C_Sglx.c_sglx_getImecChanGains
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getImecChanGains
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getNIShankMap_System_Int32__System_IntPtr_
+  name: c_sglx_getNIShankMap
+  nameWithType: C_Sglx.c_sglx_getNIShankMap
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getNIShankMap
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParams*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParams
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParams_System_Int32__System_IntPtr_
+  name: c_sglx_getParams
+  nameWithType: C_Sglx.c_sglx_getParams
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParams
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsImecCommon_System_Int32__System_IntPtr_
+  name: c_sglx_getParamsImecCommon
+  nameWithType: C_Sglx.c_sglx_getParamsImecCommon
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecCommon
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsImecProbe_System_Int32__System_IntPtr_System_Int32_
+  name: c_sglx_getParamsImecProbe
+  nameWithType: C_Sglx.c_sglx_getParamsImecProbe
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsImecProbe
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getParamsOneBox_System_Int32__System_IntPtr_System_Int32_
+  name: c_sglx_getParamsOneBox
+  nameWithType: C_Sglx.c_sglx_getParamsOneBox
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getParamsOneBox
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getProbeList_System_String__System_IntPtr_
+  name: cs_sglx_getProbeList
+  nameWithType: C_Sglx.cs_sglx_getProbeList
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getProbeList
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getRunName
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getRunName_System_String__System_IntPtr_
+  name: cs_sglx_getRunName
+  nameWithType: C_Sglx.cs_sglx_getRunName
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getRunName
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamAcqChans_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamAcqChans
+  nameWithType: C_Sglx.c_sglx_getStreamAcqChans
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamAcqChans
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamFileStart_System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamFileStart
+  nameWithType: C_Sglx.c_sglx_getStreamFileStart
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamFileStart
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamI16ToVolts_System_Double__System_IntPtr_System_Int32_System_Int32_System_Int32_
+  name: c_sglx_getStreamI16ToVolts
+  nameWithType: C_Sglx.c_sglx_getStreamI16ToVolts
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamI16ToVolts
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamMaxInt_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamMaxInt
+  nameWithType: C_Sglx.c_sglx_getStreamMaxInt
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamMaxInt
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamNP_System_Int32__System_IntPtr_System_Int32_
+  name: c_sglx_getStreamNP
+  nameWithType: C_Sglx.c_sglx_getStreamNP
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamNP
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSampleCount_System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamSampleCount
+  nameWithType: C_Sglx.c_sglx_getStreamSampleCount
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleCount
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSampleRate_System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamSampleRate
+  nameWithType: C_Sglx.c_sglx_getStreamSampleRate
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSampleRate
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamSaveChans_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamSaveChans
+  nameWithType: C_Sglx.c_sglx_getStreamSaveChans
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamSaveChans
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getStreamSN_System_Int32__System_String__System_IntPtr_System_Int32_System_Int32_
+  name: cs_sglx_getStreamSN
+  nameWithType: C_Sglx.cs_sglx_getStreamSN
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getStreamSN
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getStreamVoltageRange_System_Double__System_Double__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_getStreamVoltageRange
+  nameWithType: C_Sglx.c_sglx_getStreamVoltageRange
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getStreamVoltageRange
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_getTime*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_getTime
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_getTime_System_IntPtr_
+  name: c_sglx_getTime
+  nameWithType: C_Sglx.c_sglx_getTime
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_getTime
+- uid: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.cs_sglx_getVersion
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_cs_sglx_getVersion_System_IntPtr_
+  name: cs_sglx_getVersion
+  nameWithType: C_Sglx.cs_sglx_getVersion
+  fullName: C_Sglx_namespace.C_Sglx.cs_sglx_getVersion
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isConsoleHidden_System_Byte__System_IntPtr_
+  name: c_sglx_isConsoleHidden
+  nameWithType: C_Sglx.c_sglx_isConsoleHidden
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isConsoleHidden
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isInitialized
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isInitialized_System_Byte__System_IntPtr_
+  name: c_sglx_isInitialized
+  nameWithType: C_Sglx.c_sglx_isInitialized
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isInitialized
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isRunning*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isRunning
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isRunning_System_Byte__System_IntPtr_
+  name: c_sglx_isRunning
+  nameWithType: C_Sglx.c_sglx_isRunning
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isRunning
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isSaving*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isSaving
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isSaving_System_Byte__System_IntPtr_
+  name: c_sglx_isSaving
+  nameWithType: C_Sglx.c_sglx_isSaving
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isSaving
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_isUserOrder_System_Byte__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_isUserOrder
+  nameWithType: C_Sglx.c_sglx_isUserOrder
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_isUserOrder
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_mapSample*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_mapSample
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_mapSample_System_IntPtr_System_Int32_System_Int32_System_UInt64_System_Int32_System_Int32_
+  name: c_sglx_mapSample
+  nameWithType: C_Sglx.c_sglx_mapSample
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_mapSample
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_opto_emit
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_opto_emit_System_IntPtr_System_Int32_System_Int32_System_Int32_
+  name: c_sglx_opto_emit
+  nameWithType: C_Sglx.c_sglx_opto_emit
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_emit
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_opto_getAttenuations_System_Int32__System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_opto_getAttenuations
+  nameWithType: C_Sglx.c_sglx_opto_getAttenuations
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_opto_getAttenuations
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_par2*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_par2
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_par2_C_Sglx_namespace_C_Sglx_ProgressCallback_System_IntPtr_System_Char_System_String_
+  name: c_sglx_par2
+  nameWithType: C_Sglx.c_sglx_par2
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_par2
+- uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+  commentId: T:C_Sglx_namespace.C_Sglx.ProgressCallback
+  parent: C_Sglx_namespace
+  href: C_Sglx_namespace.C_Sglx.html
+  name: C_Sglx.ProgressCallback
+  nameWithType: C_Sglx.ProgressCallback
+  fullName: C_Sglx_namespace.C_Sglx.ProgressCallback
+  spec.csharp:
+  - uid: C_Sglx_namespace.C_Sglx
+    name: C_Sglx
+    href: C_Sglx_namespace.C_Sglx.html
+  - name: .
+  - uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+    name: ProgressCallback
+    href: C_Sglx_namespace.C_Sglx.ProgressCallback.html
+  spec.vb:
+  - uid: C_Sglx_namespace.C_Sglx
+    name: C_Sglx
+    href: C_Sglx_namespace.C_Sglx.html
+  - name: .
+  - uid: C_Sglx_namespace.C_Sglx.ProgressCallback
+    name: ProgressCallback
+    href: C_Sglx_namespace.C_Sglx.ProgressCallback.html
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAnatomy_Pinpoint_System_IntPtr_System_String_
+  name: c_sglx_setAnatomy_Pinpoint
+  nameWithType: C_Sglx.c_sglx_setAnatomy_Pinpoint
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAnatomy_Pinpoint
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAudioEnable_System_IntPtr_System_Int32_
+  name: c_sglx_setAudioEnable
+  nameWithType: C_Sglx.c_sglx_setAudioEnable
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioEnable
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setAudioKVParams_System_IntPtr_System_String_
+  name: c_sglx_setAudioKVParams
+  nameWithType: C_Sglx.c_sglx_setAudioKVParams
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setAudioKVParams
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setDataDir
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setDataDir_System_IntPtr_System_Int32_System_String_
+  name: c_sglx_setDataDir
+  nameWithType: C_Sglx.c_sglx_setDataDir
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDataDir
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setDigitalOut_System_IntPtr_System_Int32_System_String_
+  name: c_sglx_setDigitalOut
+  nameWithType: C_Sglx.c_sglx_setDigitalOut
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setDigitalOut
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVMetadata_System_IntPtr_
+  name: c_sglx_setKVMetadata
+  nameWithType: C_Sglx.c_sglx_setKVMetadata
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVMetadata
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParams
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParams_System_IntPtr_
+  name: c_sglx_setKVParams
+  nameWithType: C_Sglx.c_sglx_setKVParams
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParams
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsImecCommon_System_IntPtr_
+  name: c_sglx_setKVParamsImecCommon
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecCommon
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecCommon
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsImecProbe_System_IntPtr_System_Int32_
+  name: c_sglx_setKVParamsImecProbe
+  nameWithType: C_Sglx.c_sglx_setKVParamsImecProbe
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsImecProbe
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setKVParamsOneBox_System_IntPtr_System_Int32_
+  name: c_sglx_setKVParamsOneBox
+  nameWithType: C_Sglx.c_sglx_setKVParamsOneBox
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setKVParamsOneBox
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setMultiDriveEnable_System_IntPtr_System_Int32_
+  name: c_sglx_setMultiDriveEnable
+  nameWithType: C_Sglx.c_sglx_setMultiDriveEnable
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setMultiDriveEnable
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setNextFileName_System_IntPtr_System_String_
+  name: c_sglx_setNextFileName
+  nameWithType: C_Sglx.c_sglx_setNextFileName
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setNextFileName
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setRecordingEnable_System_IntPtr_System_Int32_
+  name: c_sglx_setRecordingEnable
+  nameWithType: C_Sglx.c_sglx_setRecordingEnable
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRecordingEnable
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setRunName*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setRunName
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setRunName_System_IntPtr_System_String_
+  name: c_sglx_setRunName
+  nameWithType: C_Sglx.c_sglx_setRunName
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setRunName
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setTriggerOffBeep_System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_setTriggerOffBeep
+  nameWithType: C_Sglx.c_sglx_setTriggerOffBeep
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOffBeep
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_setTriggerOnBeep_System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_setTriggerOnBeep
+  nameWithType: C_Sglx.c_sglx_setTriggerOnBeep
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_setTriggerOnBeep
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_startRun*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_startRun
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_startRun_System_IntPtr_System_String_
+  name: c_sglx_startRun
+  nameWithType: C_Sglx.c_sglx_startRun
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_startRun
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_stopRun*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_stopRun
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_stopRun_System_IntPtr_
+  name: c_sglx_stopRun
+  nameWithType: C_Sglx.c_sglx_stopRun
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_stopRun
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_triggerGT
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_triggerGT_System_IntPtr_System_Int32_System_Int32_
+  name: c_sglx_triggerGT
+  nameWithType: C_Sglx.c_sglx_triggerGT
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_triggerGT
+- uid: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1*
+  commentId: Overload:C_Sglx_namespace.C_Sglx.c_sglx_verifySha1
+  isExternal: true
+  href: C_Sglx_namespace.C_Sglx.html#C_Sglx_namespace_C_Sglx_c_sglx_verifySha1_C_Sglx_namespace_C_Sglx_ProgressCallback_System_IntPtr_System_String_
+  name: c_sglx_verifySha1
+  nameWithType: C_Sglx.c_sglx_verifySha1
+  fullName: C_Sglx_namespace.C_Sglx.c_sglx_verifySha1
