@@ -4,7 +4,7 @@ using System.Reactive.Linq;
 
 namespace Bonsai.SpikeGLX
 {
-    // <summary>
+    /// <summary>
     /// Represents an operator that remotely controls SpikeGLX recording by setting 
     /// the gate and trigger.
     /// </summary>

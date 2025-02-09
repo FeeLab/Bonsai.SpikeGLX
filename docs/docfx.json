@@ -1,0 +1,100 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../src",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "filter": "filter.yml" 
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**",
+          "filter.yml",
+        ]
+      },
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ],
+        "src": "./examples",
+        "dest": "examples"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "logo.svg",
+          "favicon.ico",
+          "images/**",
+          "workflows/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.{bonsai,svg,gif}"
+        ],
+        "exclude": [
+          "_site/**"
+        ],
+        "src": "./examples",
+        "dest": "examples"
+      }
+    ],
+    "output": "_site",
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "template": [
+      "default",
+      "modern",
+      "bonsai/template",
+      "template"
+    ],
+    "globalMetadata": {
+      "_appName": "Bonsai - SpikeGLX",
+      "_appTitle": "Bonsai - SpikeGLX",
+      "_enableNewTab": true,
+      "_enableSearch": true,
+      "pdf": false,
+      "_appFooter": "&copy; 2024 Bonsai Foundation CIC and Contributors. Made with <a href=\"https://dotnet.github.io/docfx\">docfx</a>",
+      "_gitContribute": {
+        "repo": "https://github.com/bonsai-rx/spikeglx",
+        "branch": "main",
+        "apiSpecFolder": "apidoc"
+      }
+    },
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+        "attributes",
+        "customcontainers"
+      ]
+    },
+    "xref": [
+      "https://bonsai-rx.org/docs/xrefmap.yml"
+    ]
+  }
+}
