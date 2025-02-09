@@ -4,7 +4,7 @@ using System.Reactive.Linq;
 
 namespace Bonsai.SpikeGLX
 {
-    // <summary>
+    /// <summary>
     /// Represents an operator that controls a digital output.
     /// </summary>
     [Combinator]
